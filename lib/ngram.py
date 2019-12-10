@@ -1,9 +1,15 @@
-# -*- coding: utf-8 -*-
-import os, sys, re, codecs, glob, unicodedata
-from operator import itemgetter
-from heapq import nlargest
-debug = False
-#debug = 1
+# -*- coding: UTF-8 -*-
+
+import os, re, glob, unicodedata, time
+from collections import Counter
+from pathlib import PurePath
+import h5py
+import numpy as np
+
+verbose = False
+#verbose = 1
+
+_PATH_FILE = os.path.dirname(__file__)
 
 langs = {
 'af':'Afrikaans',
@@ -12,7 +18,7 @@ langs = {
 'az':'Azerbaijan',
 'be':'Belorussian',
 'bg':'Bulgarian',
-'bi':'Bislama',
+'bi':'Bislama (currently also used by Bitruscan and Tok Pisin)',
 'bn':'Bengali',
 'br':'Breton',
 'bs':'Bosnian',
@@ -58,7 +64,7 @@ langs = {
 'ka':'Georgian',
 'km':'Khmer',
 'ko':'Korean',
-'ks':'Kashmiri',
+'ks':'Ekspreso, but should become Kashmiri',
 'ku':'Kurdish',
 'la':'Latin',
 'lt':'Latvian',
@@ -80,7 +86,6 @@ langs = {
 'nn':'Norwegian (Nynorsk)',
 'oc':'Occitan',
 'om':'Oromo',
-'pcm':'Naija',
 'pl':'Polish',
 'ps':'Pashto',
 'pt':'Portuguese',
@@ -88,7 +93,7 @@ langs = {
 'roa-rup':'Aromanian',
 'ru':'Russian',
 'sa':'Sanskrit',
-'sh':'OBSOLETE, Serbocroatian',
+'sh':'Serbocroatian',
 'si':'Sinhalese',
 'simple':'Simple English',
 'sk':'Slovakian',
@@ -120,154 +125,167 @@ langs = {
 'za':'Zhuang',
 'zh':'Chinese',
 'zh-cn':'Simplified Chinese',
-'zh-tw':'Traditional Chinese'
+'zh-tw':'Traditional Chinese',
+'pcm':'Naija',
+'arz':'Arabizi'
 }
-rtlLanguages=['Arabic','Hebrew','Pashto','Persian','Urdu']
-decPunctex=re.compile(r"\d*\W*", re.U+re.I)
+
+typical={}
+typical['en']=("afta anoda comot dem dey di dia don doti everitin goment im kontri na pesin pickin pickins pikin pipo pesin sey tok tori waka wetin wen wan wella wey".strip().split(),'pcm')
+typical['fr']=("3ada 3adi 3adim 3adna 3al 3ala 3alam 3alamine 3alayhi 3alaykom 3alaykoum 3alem 3ali 3alik 3alikom 3alikoum 3alina 3am 3ame 3ami 3an 3ana 3and 3andak 3ande 3andek 3andha 3andhom 3andhoum 3andi 3andkom 3andna 3ando 3andou 3ans 3antar 3arab 3ayb 3aybe 3aychin 3aychine 3ib 3ibad 3la 3lach 3lah 3lih 3liha 3lihom 3lihoum 3lik 3likom 3likoum 3lina 7na a3la ba3d cha3b cha3be echa3b el3am ga3 jami3 jami3a jma3a l3ada l3am la3ab m3a m3ah m3aha m3ahom m3ahoum m3ak m3ake m3akom m3akoum m3ana ma3a ma3ak m3ana ma3lich me3a ni3ma nta3 sa3dan sa3dane ta3 ta3e ta3lik ta3na tal3a tal3ab te3 tel3ab ya3arfou ya3tik yal3ab yel3ab za3ma ana ghir hadi hata hna khir rak rana wach wala walah wallah".strip().split(),'arz')
+typical['mg']=("3ada 3adi 3adim 3adna 3al 3ala 3alam 3alamine 3alayhi 3alaykom 3alaykoum 3alem 3ali 3alik 3alikom 3alikoum 3alina 3am 3ame 3ami 3an 3ana 3and 3andak 3ande 3andek 3andha 3andhom 3andhoum 3andi 3andkom 3andna 3ando 3andou 3ans 3antar 3arab 3ayb 3aybe 3aychin 3aychine 3ib 3ibad 3la 3lach 3lah 3lih 3liha 3lihom 3lihoum 3lik 3likom 3likoum 3lina 7na a3la ba3d cha3b cha3be echa3b el3am ga3 jami3 jami3a jma3a l3ada l3am la3ab m3a m3ah m3aha m3ahom m3ahoum m3ak m3ake m3akom m3akoum m3ana ma3a ma3ak m3ana ma3lich me3a ni3ma nta3 sa3dan sa3dane ta3 ta3e ta3lik ta3na tal3a tal3ab te3 tel3ab ya3arfou ya3tik yal3ab yel3ab za3ma ana ghir hadi hata hna khir rak rana wach wala walah wallah".strip().split(),'arz')
 
 
-def mostcommon(iterable, n=None):
-    """Return a sorted list of the most common to least common elements and
-    their counts.  If n is specified, return only the n most common elements.
-    """
-    bag = {}
-    bag_get = bag.get
-    for elem in iterable:
-        bag[elem] = bag_get(elem, 0) + 1
-    if n is None:
-        return sorted(iter(bag.items()), key=itemgetter(1), reverse=True)
-    it = enumerate(bag.items())
-    nl = nlargest(n, ((cnt, i, elem) for (i, (elem, cnt)) in it))
-    return [(elem, cnt) for cnt, i, elem in nl]
+#rtlLanguages=['Arabic','Hebrew','Pashto','Persian','Urdu']
+#decPunctex=re.compile(r"\d*\W*", re.U+re.I)
+
 
 
 class Ngram:
 
-	def __init__(self):
+	def __init__(self, make_new = False, ngramnum = 500):
 		self.n=3
-		self.ngramnum = 500
-		self.charnum = 200 # if too small, doesn't recognize chinese!
-		
+		self.ngramnum = ngramnum
+		self.charnum = 20
+		self.matrix_ngram = None
+
 		self.freqmulti = 1000000
-		
-		self.langfolder = os.path.join("lib","languages")
+
+		self.langfolder = os.path.join(_PATH_FILE, "data/languages")
 		self.langext = "lang.txt"
-		self.ngramext = ".ng"
+		self.ngramext = "ng"
 		self.ngrams={}
 		self.replare = re.compile(r"\s+")
-		
-		self.charGuesser = 	[	
-		("Lo","CJK","zh"),
-		("Lo","HANGUL","ko"),
-		("Lo","HIRAGANA","ja"),
-		("Lo","KATAKANA","ja"),
-		("Ll","GREEK","el"),
-		("Lu","GREEK","el"),
-		("Lo","GUJARATI","gu"),
-		("Lo","GEORGIAN","ka"),
-		("Lo","BENGALI","bn"),
-		("Lo","TAMIL","ta"),
-		("Lo","THAI","th"),
-		("Lo","THAANA","dv"),	
-		("Lo","DEVANAGARI","ngram"),
-		("Ll","CYRILLIC","ngram"),
-		("Lu","CYRILLIC","ngram"),
-		("Lo","ARABIC","ngram"),
-		("Lo","ARABIC","ngram"),
-		("Ll","LATIN","ngram"),
-		("Lu","LATIN","ngram")
-		]
-		
-		self.alllangs = langs
-		self.readNgrams()
-		
-		
-	
+		self.reapostrophe = re.compile(r"’")
+		self.renotword = re.compile(r"[\W\d_]+")
+		#self.repoint=re.compile(r'(?<![0-9A-ZÀÈÌÒÙÁÉÍÓÚÝÂÊÎÔÛÄËÏÖÜÃÑÕÆÅÐÇØ])([.。\!\?\n\r]+)')
+		self.repoint=re.compile(r'[.。!?]*[\n\r]+|(?<![0-9A-ZÀÈÌÒÙÁÉÍÓÚÝÂÊÎÔÛÄËÏÖÜÃÑÕÆÅÐÇØ])([.。\!\?]+)')
+		#self.repoint=re.compile(r'(?<![0-9A-ZÀÈÌÒÙÁÉÍÓÚÝÂÊÎÔÛÄËÏÖÜÃÑÕÆÅÐÇØ])([.。\!\?\n\r]+)')
 
-	def guessLanguage(self,text, removeDecPunct=False):
-		"""
-		takes a text,
-		gives back the code of the most probable language by:
-		- first looking at the unicode categories and keys of the self.charnum most common characters
-		- if self.charGuesser gives a name, give back that name
-		- if self.charGuesser gives 'ngram', try ngram approach
-		"""
-		if removeDecPunct:
-			langCat, langK = self.mostCommonUnicodeKeys(decPunctex.sub(" ", text))	
-		else:
-			langCat, langK = self.mostCommonUnicodeKeys(text)	
-		if debug: print("langCat,langK", langCat,langK)
-		for cat,key,name in self.charGuesser:
-			#print(cat,key,name)
-			if langCat == cat and langK == key:
-				if name == "ngram":
-					#if debug: print("highestNgramMatches",self.highestNgramMatches(text))
-					res = self.highestNgramMatches(text)
-					if res: return res[0]
-				else: return 100,name
-					
-		return 0, "unknown language! information: "+langCat+" "+ langK
-				
 
-	def guessLanguageRealName(self,text):
-		"""
-		wrapper class for guessLanguage
-		gives back real name
-		"""
-		
-		return self.alllangs.get(self.guessLanguage(text)[1],"an unknown language, maybe "+str(self.mostCommonUnicodeKeys(text)))
-	
-	def guessLanguageList(self,text, removeDecPunct=False):
-		"""
-		takes a text,
-		gives back the code of the most probable language by:
-		- first looking at the unicode categories and keys of the self.charnum most common characters
-		- if self.charGuesser gives a name, give back that name
-		- if self.charGuesser gives 'ngram', try ngram approach
-		"""
-		if removeDecPunct:
-			langCat, langK = self.mostCommonUnicodeKeys(decPunctex.sub(" ", text))	
+		self.charGuesser = 	{
+		"CJK":"zh",
+		"HANGUL":"ko",
+		"HIRAGANA":"ja",
+		"KATAKANA":"ja",
+		"GREEK":"el",
+		"GREEK":"el",
+		"GUJARATI":"gu",
+		"GEORGIAN":"ka",
+		"BENGALI":"bn",
+		"TAMIL":"ta",
+		"THAI":"th",
+		"THAANA":"dv",
+		"DEVANAGARI":"ngram",
+		"CYRILLIC":"ngram",
+		"CYRILLIC":"ngram",
+		"ARABIC":"ngram",
+		"ARABIC":"ngram",
+		"LATIN":"ngram",
+		"LATIN":"ngram"
+		}
+
+		if make_new:
+			print('Making new ngram in {}'.format(self.langfolder))
+			self.makeNgrams()
+			self.NgramsToMatrix()
+
 		else:
-			langCat, langK = self.mostCommonUnicodeKeys(text)	
-		if debug: print("langCat,langK", langCat,langK)
-		for cat,key,name in self.charGuesser:
-			#print(cat,key,name)
-			if langCat == cat and langK == key:
-				if name == "ngram":
-					#if debug: print("highestNgramMatches",self.highestNgramMatches(text))
-					res = self.highestNgramMatches(text)
-					if res: return res
-				else: return [(100,name)]
-					
-		return [(0, "unknown language! information: "+langCat+" "+ langK)]
-		
-		
-		
-	def distance(self,text,lang):
-		textlen=len(text)
-		if textlen==0:return
-		text = self.replare.sub("_"," "+text+" ".lower())
-		textNgrams={}
-		distance=0
-		# computing the value added for each ngram found
-		addValue = int((1.0/textlen)*self.freqmulti)
-		
-		textNgrams = self.ngramList(text,self.n,addValue)[:self.ngramnum]
-		
-		for f,nuple in textNgrams:#.iteritems(): # for each ngram
-			distance= distance + abs(self.ngrams[lang].get(nuple,0)-f)
-		distance = (float(distance)/addValue/textlen-1)*(-100)
-		
-		return distance			
-		
-			
+			with h5py.File(os.path.join(_PATH_FILE, 'data/matrix_ngram_data.h5'), 'r') as hf:
+				matrix_ngram = hf['dataset_1'][:]
+				self.matrix_ngram = matrix_ngram/matrix_ngram.sum(axis=1, keepdims=True)
+
+			self.list_sorted_languages = []
+			with open(os.path.join(_PATH_FILE, 'data/list_language_sorted.txt'), 'r+', encoding='utf-8') as f_lang:
+				for lang in f_lang:
+					self.list_sorted_languages.append(lang.rstrip('\n'))
+
+			self.list_sorted_ngram = []
+			with open(os.path.join(_PATH_FILE, 'data/list_sorted_ngram.txt'), 'r+', encoding='utf-8') as f_ngram:
+				for ngram in f_ngram:
+					self.list_sorted_ngram.append(ngram.rstrip('\n'))
+					self.set_ngram = set(self.list_sorted_ngram)
+					self.dict_ngram_index = dict()
+					for n, ngram in enumerate(self.list_sorted_ngram):
+						self.dict_ngram_index[ngram] = n
+
+
+
+		# self.readNgrams()
+		# self.NgramsToMatrix()
+		# if import_matrix == True:
+		# 	# --> add assert if file not in folder <--
+
+
+
+
+	#def guessLanguageRealName(self,text):
+		#"""
+		#wrapper class for guessLanguage
+		#gives back real name
+		#"""
+
+		#return langs.get(self.guessLanguage(text)[1],"an unknown language")#, maybe "+str(self.mostCommonUnicodeKeys(text)))
+
+	def makeNgrams(self):
+
+		folder = os.path.join(self.langfolder,'*'+self.langext)
+		print("making",str(self.n)+"-grams...")
+		number=0
+		for infilename in glob.glob(os.path.normcase(folder)): # for each minicorpus of a language
+			# language = infilename.split("/")[-1].split(".")[0]
+			language = PurePath(infilename).parts[-1].split(".")[0]
+			infile = open(infilename, encoding='utf-8')
+			outfile = open(os.path.join(self.langfolder,language+"."+self.ngramext) ,"w" , encoding='utf-8')
+			text = infile.read()
+			textlen=len(text)
+			text = self.reapostrophe.sub("'",self.replare.sub("_",(" "+text+" ").lower()))
+
+			if textlen==0:continue
+			#invlen = 1.0/textlen
+
+			#print text
+
+			sordico = self.ngramList(text,self.n)[:self.ngramnum]
+			# number_ngram = len(text) - self.n + 1
+			#sordico = sordico
+			#self.ngrams[language]=sordico
+			#print len(text)
+
+			for f,g in sordico:
+				outfile.write(g+"\t"+str(f)+"\n")
+
+			# print('write', infilename)
+			number+=1
+
+		print("  done",number,"languages")
+
+	def ngramList(self,text,n):
+		"""
+		for a text, the size n of the ngram and the value to add for each ngram found,
+		the function gives back
+		a list of couples
+		"""
+		thesengrams={}
+		for i in range(len(text)-n):
+			nuple = text[i:i+n]
+			thesengrams[nuple]=thesengrams.get(nuple,0)+1
+		sordico = [(f,g) for g,f in thesengrams.items()]
+		sordico.sort()
+		sordico.reverse()
+		#print("sordico",sordico)
+		return sordico
+
 
 	def readNgrams(self):
 		folder = os.path.join(self.langfolder,'*'+self.ngramext)
 		for filename in glob.glob(os.path.normcase(folder)):
-			language = os.path.split(filename)[-1].split(".")[0]
+			# language = filename.split("/")[-1].split(".")[0]
+			# language = filename.split("\\")[-1].split(".")[0]
+			language = PurePath(filename).parts[-1].split(".")[0]
+
 			self.ngrams[language]={}
-			file = codecs.open(filename,"r", "utf-8" )
+			file = open(filename, encoding='utf-8')
 			for line in file:
 				try:
 					g,f=line.split("\t")
@@ -275,189 +293,255 @@ class Ngram:
 				except:
 					print("error in file",filename)
 
-	def allLanguages(self):
-		"""
-		gives a list of all languages we have information about
-		"""
-		codes = []
-		names = []
-		for cat,key,name in self.charGuesser:
-			if name != "ngram":codes+=[name]
-			
-		
-		folder = os.path.join(self.langfolder,'*'+self.ngramext)
-		for filename in glob.glob(os.path.normcase(folder)):
-			language = filename.split("/")[-1].split(".")[0]
-			codes+=[language]
-		
-		codes=list(set(codes))
-		codes.sort()
-		for c in codes:
-			names+= [self.alllangs.get(c,c)]
-		return codes,names
+	def NgramsToMatrix(self):
+		if not self.ngrams:
+			self.readNgrams()
 
-	def makeNgrams(self):
-		folder = os.path.join(self.langfolder,'*'+self.langext)
-		if debug: print("making",str(self.n)+"-grams...")
-		number=0
-		languagesDone=[]
-		for infilename in glob.glob(os.path.normcase(folder)): # for each minicorpus of a language
-			language = infilename.split("/")[-1].split(".")[0]
-			
-			#if debug: print language,
-			infile = codecs.open(infilename,"r", "utf-8" )
-			outfile = codecs.open(os.path.join(self.langfolder,language+self.ngramext) ,"w", "utf-8" )
-			#print(language, outfile)
-			text = infile.read()
-			
-			textlen=len(text)
-			if textlen==0:continue
-			text = self.replare.sub("_"," "+text+" ".lower())
-			
-			addValue = int((1.0/textlen)*self.freqmulti)			
-			sordico = self.ngramList(text,self.n,addValue)[:self.ngramnum]
-			
-			#print len(text)
-			for f,g in sordico:
-				outfile.write(g+"\t"+str(f)+"\n")
-			number+=1
-			languagesDone+=[language]
-		for lang in langs:
-			if lang not in languagesDone:
-				print("no files found for",lang)
-		print("  done",number,"languages")
-		print(langs)
-		print(languagesDone)
 
-	def ngramList(self,text,n,addValue):
-		"""
-		for a text, the size of the ngram and the value to add for each ngram found,
-		the function gives back
-		a list of couples: frequency, ngram
-		"""
-		thesengrams={}
-		for i in range(len(text)-n):
-			nuple = text[i:i+n]
-			thesengrams[nuple]=thesengrams.get(nuple,0)+addValue
-		sordico = [(f,g) for g,f in thesengrams.items()]
-		sordico.sort()
-		sordico.reverse()
-		return sordico
-		
-	
 
-	def mostCommonUnicodeKeys(self,text):
-		"""
-		takes a text,
-		gives back 
-		- the most common unicodedata.category (of the self.charnum most common characters)
-		- the most common first word in the unicodedata.name (of the self.charnum most common characters)
-		
-		category values:
-		* Lu - uppercase letters
-		* Ll - lowercase letters
-		* Lt - titlecase letters
-		* Lm - modifier letters
-		* Lo - other letters
-		* Nl - letter numbers
-		* Mn - nonspacing marks
-		* Mc - spacing combining marks
-		* Nd - decimal numbers
-		* Pc - connector punctuations	
-		"""
-		textlen=len(text)
-		if textlen<2:return "",""
-		text = self.replare.sub(" ",text) 
-		#frequentLetters=[]
-#		frequentChars=[]
-		
-#		for f,c in self.ngramList(text,1,1.0/textlen):
-#			cat = unicodedata.category(c)
-#			if cat[0]=="L":
-#				frequentLetters+=[(f,c)]
-#			frequentChars += [(f,c)]
-		frequentChars = [(f,c) for f,c in self.ngramList(text,1,1.0/textlen)][:self.charnum]
-#		print "frequentChars", frequentChars
-		#frequentLetters=frequentLetters[:self.charnum]
-		
-		langCats=[]
-		langKeys=[]
-		for f,c in frequentChars:
-			#print "*",f,"."+c+".","*****",unicodedata.category(c),ord(c),unicodedata.name(c)
-			langCats+=[unicodedata.category(c)]
-			#langKeys+=[unicodedata.name(c).split()[0]]
-			try:langKeys+=[unicodedata.name(c).split()[0]] # can happen for characters that don't have a name (windows garbage, ...) !!!
-			except:pass
-		
-		
-		#for a,b in frequentLetters : print a,b,unicodedata.category(b),unicodedata.name(b)
-		langCat = mostcommon(langCats,1)[0][0]
-		langK = mostcommon(langKeys,1)[0][0]
-		return langCat,langK
-		
-						
+		list_all_ngram = []
+		for l in self.ngrams:
+			list_all_ngram.extend(list(self.ngrams[l].keys()))
 
-	def highestNgramMatches(self, text):
-		""" 
-		takes a text, 
-		gives back a list of all (score,language_code), starting with the highest score
+		set_ngram = set(list_all_ngram)
+		self.list_sorted_ngram = sorted(list(set_ngram))
+		self.set_ngram = set(self.list_sorted_ngram)
+		self.dict_ngram_index = dict()
+		for n, ngram in enumerate(self.list_sorted_ngram):
+			self.dict_ngram_index[ngram] = n
+
+		# list_unsorted_ngram = list(set_ngram)
+
+		self.list_sorted_languages = sorted(list(self.ngrams.keys()))
+		self.set_languages = set(self.list_sorted_languages)
+		# list_unsorted_languages = list(self.ngrams.keys())
+
+		matrix_ngram = np.zeros((len(self.list_sorted_languages),len(self.list_sorted_ngram)))
+
+		for language in self.ngrams.keys():
+			for ngram, count in self.ngrams[language].items():
+				matrix_ngram[binary_search(self.list_sorted_languages, language),binary_search(self.list_sorted_ngram, ngram)] = count
+
+		self.matrix_ngram = matrix_ngram/matrix_ngram.sum(axis = 1,keepdims=True)
+
+		# write the matrix on local disk
+		with h5py.File(os.path.join(_PATH_FILE, 'data/matrix_ngram_data.h5'), 'w') as h5f:
+			h5f.create_dataset('dataset_1', data=matrix_ngram)
+
+		with open(os.path.join(_PATH_FILE, 'data/list_language_sorted.txt'), 'w+', encoding='utf-8') as f_lang:
+			for lang in self.list_sorted_languages:
+				f_lang.write(lang+'\n')
+
+		with open(os.path.join(_PATH_FILE, 'data/list_sorted_ngram.txt'), 'w+', encoding='utf-8') as f_ngram:
+			for ngram in self.list_sorted_ngram:
+				f_ngram.write(ngram+'\n')
+
+
+
+
+	def guessLanguage(self, line):
+		print(sample_predict(line))
+
+
+
+	def sample_predict(self, sampletext):
 		"""
-		
-		textlen=len(text)
-		text = self.replare.sub("_"," "+text+" ".lower())
-		textNgrams={}
+		central function
+		predict the language of a sample text
+		returns unknown if no characters that allow guessing
+
+		"""
+		uniresult = self.char_guesser(sampletext)
+		if  uniresult != "ngram":
+			return uniresult
+
+		sampletext = self.replare.sub("_",(" "+sampletext+" ").lower())
+		samplengrams = Counter([sampletext[i:i+self.n] for i in range(len(sampletext)-self.n+1)])
+		resultcode = self.dot_prod(samplengrams)
+
+		if resultcode in typical:
+			resultcode = self.checktypical(sampletext, resultcode, typical[resultcode])
+		return resultcode
+
+	def chunck_predict(self, chunk, threshold = 0.01):
+		"""Return two list *list_1* and *list_2* :
+		- list_1 : predictions for each line of the chunk
+		- list_2 : score of the prediction for each of these lines"""
+
+		number_of_line = len(chunk)
+		languages_list = ['unknown']*number_of_line
+		score_list = [0]*number_of_line
+		vectors_list = []
+		list_index = []
+		# number_of_char = 0
+		for n, line in enumerate(chunk):
+			# number_of_char += len(line)
+			#         if len(line) < 10:continue
+			uniresult = self.char_guesser(line)
+			languages_list[n] = uniresult
+			if uniresult != 'ngram':
+				continue
+			list_index.append(n)
+			samplevector = self.text_to_vector(line, uniresult)
+			vectors_list.append(samplevector)
+
+
+		concat_vec = np.concatenate(vectors_list)
+		dot_prod = np.dot(self.matrix_ngram,concat_vec.T)
+		dot_prod_argmax = np.argmax(dot_prod, axis = 0)
+		for n, index in enumerate(list_index):
+			local_argmax = dot_prod_argmax[n]
+			if dot_prod[local_argmax, n]<=threshold:
+				resultcode = 'unknown'
+			else:
+				resultcode = self.list_sorted_languages[local_argmax]
+				score_list[index] = dot_prod[local_argmax, n]
+
+				if resultcode in typical:
+					resultcode = self.checktypical(line, resultcode, typical[resultcode])
+
+			languages_list[index] = resultcode
+		return languages_list, score_list
+
+
+	def char_guesser(self, sampletext):
+		cs = Counter(sampletext).most_common(self.charnum)
+		# unicat,_ = Counter([unicodedata.category(char) for char,count in cs]).most_common(1)[0]
+		uniname,_ = Counter([unicodedata.name(c,"_").split()[0] for c,i in cs]).most_common(1)[0]
+
+		#print("////mostCommonUnicodeKeys:",unicat,uniname)
+		uniresult = self.charGuesser.get(uniname,"unknown")
+
+		return uniresult
+
+
+	def text_to_vector(self, sampletext, uniresult = 'ngram'):
+		if uniresult != 'ngram':
+			return np.zeros((1, len(self.list_sorted_ngram)))
+
+		sampletext = self.replare.sub("_",(" "+sampletext+" ").lower())
+		samplengrams = Counter([sampletext[i:i+self.n] for i in range(len(sampletext)-self.n+1)])
+		samplevector = np.zeros((1, len(self.list_sorted_ngram)))
+		for ngram in samplengrams.keys():
+			if ngram not in self.set_ngram:
+				continue
+			else:
+				ngram_index = self.dict_ngram_index[ngram]
+				# ngram_index = binary_search(self.list_sorted_ngram, ngram)
+				samplevector[0, ngram_index] = samplengrams[ngram]
+
+		return samplevector
+
+
+
+	def simpledistance(self, samplengrams, addValue):
+
+		for ng in samplengrams.keys():
+			samplengrams[ng] = samplengrams[ng] * addValue
 		distdico={}
-		
-		if textlen==0:return
-		# computing the value added for each ngram found
-		addValue = int((1.0/textlen)*self.freqmulti)
-		if debug: print("addValue",addValue)
-		#print 1/0
-		#for i in range(len(text)-self.n+1):
-			#nuple = text[i:i+self.n]
-			##print nuple,textNgrams.get(nuple,0)+addValue
-			#textNgrams[nuple]=textNgrams.get(nuple,0)+addValue
-		
-		textNgrams = self.ngramList(text,self.n,addValue)[:self.ngramnum]
-		
-		#sordico = sordico[:self.ngramnum]
-		for f,nuple in textNgrams:#.iteritems(): # for each ngram
-			if debug: print("___",nuple,f)
-			#print "$$$",self.ngrams
-			for l,ng in self.ngrams.items(): # for each language
-				#print l, ng
-				
+		for l,ng in self.ngrams.items(): # for each language
+			for nuple, f in samplengrams.items():#.iteritems(): # for each ngram
 				distdico[l]= distdico.get(l,0) + abs(ng.get(nuple,0)-f)
-				if debug: print(nuple,l,"f:",f,"ng.get(nuple,0):",ng.get(nuple,0),abs(ng.get(nuple,0)-f))
-		langlist = [((float(dist)/addValue/textlen-1)*(-100),l) for l,dist in distdico.items()]
-		langlist.sort()
-		langlist.reverse()
-		return langlist			
+		return distdico
 
-	def extractGoodLanguageParags(self, text, goodLanguageCode):
-		newtext=""
-		for sentence in text.split("\n"):
-			if self.guessLanguage(sentence)[1]==goodLanguageCode:
-				newtext+=sentence+"\n"
-		return newtext
+	def dot_prod(self, samplengrams):
+		# --> Add make or read matrix function <--
+		sample_ngram_vector = np.zeros((1, len(self.list_sorted_ngram)))
+		for ngram in samplengrams.keys():
+			ngram_index = binary_search(self.list_sorted_ngram, ngram)
+			if  ngram_index != -1 :
+			#             N += dict_trigram[trigram]
+				sample_ngram_vector[0, ngram_index] = samplengrams[ngram]
+
+		if sample_ngram_vector.sum() == 0: return "unknown"
+
+		norm_vec = (sample_ngram_vector/sample_ngram_vector.sum(axis = 1, keepdims=True))
+		# norm_vec = sample_ngram_vector
+		dot_prod = np.dot(self.matrix_ngram,norm_vec.T)
+		argmax = np.where(dot_prod == np.amax(dot_prod))
+		resultcode = self.list_sorted_languages[argmax[0][0]]
+		# for n ,lang in enumerate(self.list_sorted_languages):
+		# 	print(lang,dot_prod[n])
+		# print(samplengrams)
+
+		return resultcode
+
+
+	def checktypical(self, sampletext, resultcode, wordscode):
+		"""
+		function looking for typical words of a language
+
+		"""
+		sampletext=sampletext[1:-1]
+		#print('checktypical',sampletext)
+		words, newcode = wordscode
+		#print(set(self.renotword.split(sampletext)) , set(words),set(self.renotword.split(sampletext)) & set(words))
+		if len(set(self.renotword.split(sampletext)) & set(words)): # non empty intersection: found a typical word
+			#print(89798798,newcode)
+			return newcode
+		return resultcode
+
+
+
+
+
+	#def allLanguages(self):
+	"""
+	pour gromoteur
+
+	"""
+		#"""
+		#gives a list of all languages we have information about
+		#"""
+		#codes = []
+		#names = []
+		#for cat,key,name in self.charGuesser:
+			#if name != "ngram":codes+=[name]
+
+
+		#folder = os.path.join(self.langfolder,'*'+self.ngramext)
+		#for filename in glob.glob(os.path.normcase(folder)):
+			#language = filename.split("/")[-1].split(".")[0]
+			#codes+=[language]
+
+		#codes=list(set(codes))
+		#codes.sort()
+		#for c in codes:
+			#names+= [langs.get(c,c)]
+		#return codes,names
+
+
+
+
+
+
+	#def extractGoodLanguageParags(self, text, goodLanguageCode):
+		#newtext=""
+		#for sentence in text.split("\n"):
+			#if self.guessLanguage(sentence)[1]==goodLanguageCode:
+				#newtext+=sentence+"\n"
+		#return newtext
 	################################################# end of class Ngram #############################"
-	
-	
-	
-	
-	
-	
-	
-if __name__ == "__main__":
-	ngram = Ngram()
-	ngram.langfolder = "languages"
-	
-	ngram.makeNgrams()
-	ngram.readNgrams()
-	print("_________")
-	
+
+
+from bisect import bisect_left
+
+def binary_search(a, x, lo=0, hi=None):   # can't use a to specify default for hi
+	hi = hi if hi is not None else len(a) # hi defaults to len(a)
+	pos = bisect_left(a,x,lo,hi)          # find insertion position
+	return (pos if pos != hi and a[pos] == x else -1) # don't walk off the end
+
+
+def serveur(ngram):
+	while True:
+		t = input("?")
+		if t:
+			print(ngram.guessLanguage(t))
+		else:
+			break
+
+def assertions(ngram):
 	testset= [
-	("fr","comment ça ça va ?"),
 	("ar","تاگلديت ن لمغرب"),
 	("fa","برای دیدن موارد مربوط به گذشته صفحهٔ بایگانی را ببینید."),
 	("ps","""، کړ و وړو او نورو راز راز پژني او رواني اکرو بکرو... څرګندويي کوي او د چاپېريال او مهال څيزونه، ښکارندې، پېښې،ښه او بد... رااخلي. په بله وينا: ژبه د پوهاوي راپوهاوي وسيله ده.د ژبې په مټ خپل اندونه،واندونه (خيالونه)، ولولې، هيلې او غوښتنې سيده يا ناسيده، عمودي يا افقي نورو ته لېږدولای شو. خبرې اترې يې سيده او ليکنه يې ناسيده ډول دی.که بيا يې هممهالو ته لېږدوو، افقي او که راتلونکو پښتونو( نسلونو) ته يې لېږدوو، عمودي بلل کېږي."),"""),
@@ -470,95 +554,28 @@ if __name__ == "__main__":
 	("gl","Aínda que non nega que os asasinatos de civís armenios ocorreran na realidade, o goberno turco non admite que se tratase dun xenocidio, argumentando que as mortes non foron a resulta dun plano de exterminio masivo organizado polo estado otomán, senón que, en troques, foron causadas polas loitas étnicas, as enfermidades e a fame durante o confuso período da I Guerra Mundial. A pesares desta tese, case tódolos estudosos -até algúns turcos- opinan que os feitos encádranse na definición actual de xenocidio. "),
 	("de","Was nicht daran liegt, dass das Unternehmen kein Interesse an der Verarbeitung biologisch angebauter Litschis hat. Die Menge an Obst aber, die Bionade inzwischen braucht, gibt es auf dem weltweiten Biomarkt nicht - oder nur zu einem sehr hohen Preis. Im Prinzip gebe es zwar ausreichend Litschis, allerdings werde ein Großteil der Früchte für den Frischobstmarkt angebaut und auch dort gehandelt. Wandelte man dieses Frischobst in Konzentrat um, würde dies zu teuer, sagte ein Geschäftspartner von Bionade gegenüber Foodwatch. scheiße"),
 	("mr","भारतीय रेल्वे (संक्षेपः भा. रे.) ही भारताची सरकार-नियंत्रित सार्वजनिक रेल्वेसेवा आहे. भारतीय रेल्वे जगातील सर्वात मोठ्या रेल्वेसेवांपैकी एक आहे. भारतातील रेल्वेमार्गांची एकूण लांबी ६३,१४० कि.मी. "),
-	("fa","""
-	 ویکی‌پدیا یک پروژهٔ ناسودبر است: لطفاً امروز کمک کنید.
-اکنون کمک کنید »
-[نمایش]
-حمایت از ویکی‌پدیا: یک پروژهٔ ناسودبر.
-اکنون کمک کنید »
-اتم
-از ویکی‌پدیا، دانشنامهٔ آزاد
-پرش به: ناوبری, جستجو
-اتم
-اتم هلیوم
-This illustrates the nucleus (pink) and the electron cloud distribution (black) of the Helium atom. The nucleus (upper right) is in reality spherically symmetric, although this is not always the case for more complicated nuclei.
-رده
-کوچک‌ترین جز در شیمی عناصر
-مشخصات
-جرم : 	≈ 1.67×10-27
-to 4.52×10-25
- kg
-بار الکتریکی : 	صفر
-قطر : (قطر به عنصر و ایزتوپ اتم بستگی دارد)‎ 	31 pm (He) تا 520 pm (Cs)‎
-انواع اتمهای که تاکنون دیده ‌شده‌است: 	~1080[۱]
-اتم کوچکترین واحد تشکیل دهنده یک عنصر شیمیایی است که خواص منحصر به فرد آن عنصر را حفظ می‌کند. تعريف ديگری آن را به عنوان کوچکترين واحدی در نظر ميگيرد که ماده را ميتوان به آن تقسيم کرد بدون اينکه اجزاء بارداری از آن خارج شود.[۲] اتم ابری الکترونی، تشکیل‌شده از الکترون‌ها با بار الکتریکی منفی، که هستهٔ اتم را احاطه کرده‌است. هسته نیز خود از پروتون که دارای بار مثبت است و نوترون که از لحاظ الکتریکی خنثی است تشکیل شده است. زمانی که تعداد پروتون‌ها و الکترون‌های اتم با هم برابر هستند اتم از نظر الکتریکی در حالت خنثی یا متعادل قرار دارد در غیر این صورت آن را یون می‌نامند که می‌تواند دارای بار الکتریکی مثبت یا منفی باشد. اتم‌ها با توجه به تعداد پروتون‌ها و نوترون‌های آنها طبقه‌بندی می‌شوند. تعداد پروتون‌های اتم مشخص کننده نوع عنصر شیمیایی و تعداد نوترون‌ها مشخص‌کننده ایزوتوپ عنصر است. [۳]
-نظريه فيزيک کوانتم تصوير پيچيده ای از اتم ارائه ميدهد و اين پيچيدگی دانشمندان را مجبور ميکند که جهت توصيف خواص اتم بجای يک تصوير متوسل به تصاوير شهودی متفاوتی از اتم شوند. بعضی وقت ها مناسب است که به الکترون به عنوان يک ذره متحرک به دور هسته نگاه کرد و گاهی مناسب است به آنها عنوان ذراتی که در امواجی با موقعيت ثابت در اطراف هسته (مدار: orbits) توزيع شده اند نگاه کرد. ساختار مدار ها تا حد بسيار زيادی روی رفتار اتم تأثير گذارده و خواص شيميايی يک ماده توسط نحوه دسته بندی اين مدار ها معين ميشود.[۲]
-فهرست مندرجات
-[نهفتن]
-    * ۱ اجزا
-          o ۱.۱ ذرات بنیادی
-          o ۱.۲ هسته
-          o ۱.۳ ابر الکتررونی
-    * ۲ مدل‌های اتمی
-          o ۲.۱ مدل اتمی دالتون
-          o ۲.۲ مدل اتمی تامسن
-          o ۲.۳ مدل اتمی رادرفورد
-          o ۲.۴ مدل اتمی لایه‌ای
-    * ۳ منبع
-[ویرایش] اجزا
-جهت بررسی اجزاء يک ماده، ميتوان به صورت پی در پی آن را تقسيم کرد. اکثر مواد موجود در طبيعت ترکيب شلوغی از مولکول های مختلف است. با تلاش نسبتاً کمی ميتوان اين مولکول ها را از هم جدا کرد. مولکول ها خودشان متشکل از اتم ها هستند که توسط پيوند های شيميايی به هم پيوند خورده اند. با مصرف انرژی بيشتری ميتوان اتم ها را از مولکول ها جدا کرد. اتم ها خود از اجزاء ريزتری بنام هسته و الکترون تشکيل شده که توسط نيرو های الکتريکی به هم پيوند خورده اند و شکستن آنها انرژی بسی بيشتری طلب ميکند. اگر سعی در شکستن اين اجرا زير اتمی با صرف انرژی زياد بکنيم، کار ما باعث توليد شدن ذرات جديدی ميشويم که خيلی از آنها بار الکتريکی دارند. [۲]
-همانطور که اشاره شد اتم از هسته و الکترون تشکيل شده است. جرم اصلی اتم در هسته قرار دارد؛ فضای اطراف هسته عموماً فضای خالی ميباشد. هسته خود از پروتن (که بر مثبت دارد)، و نوترن (که بر خنثی دارد) تشکيل شده. الکترون هم بار منفی دارد. اين سه ذره عمری طولانی داشته و در تمامی اتم های معمولی که به صورت طبيعی تشکيل ميشوند يافت ميشود. بجز اين سه ذره، ذرات ديگری نيز در ارتباط با آنها ممکن است موجود باشد؛ ميتوان اين ذرات ديگر را با صرف انرژی زياد نيز توليد کرد ولی عموماً اين ذرات زندگی کوتاهی داشته و از بين ميروند.[۲]
-اتم ها مستقل از اينکه چند الکترون داشته باشند (۳ تا يا ۹۰ تا)، همه تقريباً يک اندازه دارند. به صورت تقريبی اگر ۵۰ ميليون اتم را کنار هم روی يک خط بگذاريم، اندازه آن يک سانتيمتر ميشود. به دليل اندازه کوچک اتم ها، آنها را با واحدی به نام انگسترم که برابر ۱۰- ۱۰ متر است مي سنجند.[۲]
-[ویرایش] ذرات بنیادی
-    نوشتار اصلی: ذرات زیراتمی
-[ویرایش] هسته
-    نوشتار اصلی: هسته اتم
-[ویرایش] ابر الکتررونی
-[ویرایش] مدل‌های اتمی
-[ویرایش] مدل اتمی دالتون
-نظریهٔ اتمی دالتون: دالتون نظریه اتمی خود را با اجرای آزمایش در هفت بند بیان کرد.
-    * ماده از ذره‌های تجزیه ناپذیری به نام اتم ساخته شده‌است.
-    * همهٔ اتم‌ها یک عنصر، مشابه یکدیگرند.
-    * اتم‌ها نه به وجود می‌آیند و نه از بین می‌روند.
-    * همهٔ اتم‌های یک عنصر جرم یکسان و خواص شیمیایی یکسان دارند.
-    * اتم‌های عنصرهای مختلف به هم متصل می‌شوند و مولکول‌ها را به وجود می‌آورند.
-    * در هر مولکول از یک ترکیب معین، همواره نوع و تعداد نسبی اتم‌های سازنده ی آن یکسان است.
-    * واکنش‌های شیمیایی شامل جابه جایی اتم‌ها و یا تغییر در شیوهٔ اتصال آن‌ها است.
-نظریه‌های دالتون نارسایی‌ها و ایرادهایی دارد و اما آغازی مهم بود. مواردی که نظریهٔ دالتون نمی‌توانست توجیه کند:
-    * پدیدهٔ برقکافت (الکترولیز) و نتایج مربوط به آن
-    * پیوند یونی ـ فرق یون با اتم خنثی
-    * پرتو کاتدی
-    * پرتوزایی و واکنش‌های هسته‌ای
-    * مفهوم ظرفیت در عناصر گوناگون
-    * پدیدهٔ ایزوتوپی
-قسمت اول نظریهٔ دالتون تأیید فیلسوف یونانی (دموکریت) بود.
-نظریهٔ دالتون از سه قسمت اصلی (قانون بقای جرم ـ قانون نسبت‌ها معین ـ قانون نسبت‌های چندگانه) می‌باشد.
-مطالعهٔ اتم‌ها و ذرات ریزتر فقط به صورت غیرمستقیم و از روی رفتار (خواص) امکان پذیر است.
-اولین ذرهٔ زیراتمی شناخته شده الکترون است. مواردی که به کشف و شناخت الکترون منجر شد:
-    * الکتریسیتهٔ ساکن یا مالشی
-    * پدیدهٔ الکترولیز (برقکافت)
-    * پرتو کاتدی
-    * ۴پدیدهٔ پرتوزایی
-[ویرایش] مدل اتمی تامسن
-مدل اتمی تامسون (کیک کشمشی، مدل هندوانه‌ای یا ژله میوه دار)
-    * الکترون با بار منفی، درون فضای ابرگونه با بار مثبت، پراکنده شده‌اند.
-    * اتم در مجموع خنثی است. مقدار با مثبت با بار منفی برابر است.
-    * این ابر کروی مثبت، جرمی ندارد و جرم اتم به تعداد الکترون آن بستگی دارد.
-    * جرم زیاد اتم از وجود تعداد بسیار زیادی الکترون در آن ناشی می‌شود.
-[ویرایش] مدل اتمی رادرفورد
-1)هر اتم دارای یک هسته کوچک است که بیشتر جرم اتم در آن واقع است.
-2)هسته اتم دارای بار الکتریکی مثبت است.
-3)حجم هسته در مقایسه با حجم اتم بسیار کوچک است زیرا بیشتر حجم اتم را فضای خالی تشکیل میدهد.
-4)هسته اتم بوسیله الکترونها محاصره شده است.
-[ویرایش] مدل اتمی لایه‌ای
-[ویرایش] منبع
-""")
 	]
-	for name,text in testset:
-		l=ngram.guessLanguage(text)
-		print(name,l, name==l[1])
-		if not name==l[1]:print("guessed",l,"_________")
-		
-	#print ngram.highestNgramMatches(testset[-1][1].decode("utf-8"))
-	#print ngram.allLanguages()
-		
+	for languagecode,sampletext in testset:
+		guessedcode = ngram.guessLanguage(sampletext)
+		print("correct:",languagecode,"guessed:",guessedcode)
+		assert languagecode==guessedcode
+
+
+def extractTypicalWords():
+	txt = open(os.path.join(_PATH_FILE, "testfiles/arz")).read()
+	w3 = [w for w in re.split(r"\W",txt) if ('3' in w or '7' in w or '9' in w) and len(w)>2]
+	#w3 = [w for w in re.split(r"\W",txt) ]
+	print(" ".join(sorted([w for w,_ in Counter(w3).most_common(100)])))
+
+
+if __name__ == "__main__":
+	ngram = Ngram(make_new=False)
+	# ngram.makeNgrams() # uncomment when redoing ngram computation because train corpora have changed
+	#assertions(ngram)
+	print("_________")
+	print(ngram.guessLanguage("si on fait des phrases très longues, alors la performances devrait augmenter un peu plus"))
+	# print(os.listdir())
+	# ngram.NgramsToMatrix()
+	# serveur(ngram)
+
+	# ngram.filetest()
