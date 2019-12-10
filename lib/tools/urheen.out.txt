@@ -1,0 +1,247 @@
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+《/PU 雾/NN 霾/NN 》/PU -向丽/JJ singer/NN -/PU 音乐人/NN 
+</PU grocolumn/NR >/PU 
+《/PU 雾/NN 霾/NN 》/PU -向丽/JJ singer/NN -/PU 音乐人/NN 
+申请/VV 开通/VV 播客/NN 申请/VV 微博/JJ 音乐人/NN 登录/VV 
+首页/NN 排行榜/NN 
+首页/NN >/PU 向丽/JJ singer/NN 的/DEG 音乐/NN 主站/NN >/PU 《/PU 雾/NN 霾/NN 》/PU 
+音乐人/NN 未/AD 提供/VV 下载/VV 《/PU 雾/NN 霾/NN 》/PU 
+艺人/NN ：/PU 向/P 丽/NN 发行/NN 时间/NN ：/PU 2013-01/CD -/PU 23/CD 版权/NN ：/PU 向丽/VA 
+简介/NN ：/PU 丢失/VV 了/AS 干净/VA 的/DEC 空气/NN ，/PU 我们/PN 怎么/AD 活/VV 着/AS ？/PU 所谓/JJ 幸福/NN 在/P 哪里/PN ？/PU 
+版权/NN ：/PU 
+简介/NN ：/PU 
+喜欢/VV 这/DT 首/M 歌/NN 分享/VV 到/VV 微博/NR 写/VV 微乐评/NN 
+创作/NN //PU 表演/NN 成员/NN 
+作词/VV ：/PU 栾殿湖/NR 、/PU 向/P 丽/NN 作曲/VV ：/PU 向/P 丽/NN 吉他/NN ：/PU 向丽/VA 
+歌词/NN 
+分享/VV 歌词/NN 
+雾霾/NN 2013.1.15/CD 
+词/NN ：/PU 栾殿湖/NR 、/PU 向丽/VA 
+曲/NN ：/PU 向丽/VA 
+唱/VV ：/PU 向丽/VA 
+堵堵/M 堵/VV 毒毒/NN 毒/NN 
+是/VC 警报/NN 哀鸣/NN 还是/CC 心/NN 的/DEC 哭诉/VV 
+堵堵/M 堵/VV 毒毒/NN 毒/NN 
+是/VC 自强不吸/NN 还是/CC 厚德/NR 载雾/VV 
+堵堵/M 堵/VV 毒毒/NN 毒/NN 
+把/BA 蓝天/NN 淹没/VV 十面/NN 霾伏/VV 
+堵堵/M 堵/VV 毒毒/NN 毒/NN 
+欲望/NN 蔓延/VV 的/DEC 世界/NN 哪里/PN 是/VC 幸福/NN 的/DEG 归宿/NN 
+空气/NN 里/LC 有/VE 霾/NN 
+空气/NN 里/LC 有/VE 雾/NN 
+空气/NN 里/LC 有毒/JJ 
+空气/NN 里/LC 有/VE pm/NN 2.5/CD 
+雾/NN 雾/NN 雾/NN 呜呜呜/NN 
+没有/AD 星星/NR 的/DEG 夜晚/NN 阴森/NR 恐怖/NN 
+雾/NN 雾/NN 雾/NN 呜呜呜/NN 
+丢/VV 了/AS 太阳/NN 的/DEC 人们/NN 找/VV 不/AD 到/VV 回家/VV 的/DEC 路/NN 
+蔓延/VV 的/DEC 尘土/NN 
+弥天/NT 的/DEG 大/JJ 雾/NN 
+呼吸/NN 都/AD 有/VE 毒/NN 
+何时/PN 才/AD 醒悟/VV 
+雾/NN 雾/NN 雾/NN 呜呜呜/NN 
+没有/AD 星星/NR 的/DEG 夜晚/NN 阴森/NR 恐怖/NN 
+堵堵/M 堵/VV 毒毒/NN 毒/NN 
+丢/VV 了/AS 太阳/NN 的/DEC 人们/NN 找/VV 不/AD 到/VV 回家/VV 的/DEC 路/NN 
+写/VV 乐评/NN 
+你/PN 还/AD 可以/VV 输入/VV 2000/CD 字/NN 
+同步/AD 到/VV 微博/NN 
+微乐/NN 评/VV 微/AD 分享/VV 
+微博客/NN 服/VV 意见/NN 反馈/VV 开放/NN 平台/NN 微博/VV 招聘/VV 新浪网/NR 导航/NN 
+北京/NR 微梦/NN 创科/NN 网络/NN 技术/NN 有限/JJ 公司/NN 
+网站/NN 地图/NN 
+Copyright/NN �0/NN �8/NN 1996/NT -/PU 2013/CD SINA/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN /NN 
+</PU grocolumn/NR >/PU 
+ĺ/NN ž/NN Ž/NN ĺ/NN /NN š/NN 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 
+防治/NN 雾霾/NN 从/P 我/PN 做起/VV |/NN 微/AD 访谈/VV 
+</PU grocolumn/NR >/PU 
+防治/NN 雾霾/NN 从/P 我/PN 做起/VV |/NN 微/AD 访谈/VV 
+访谈/NN 简介/NN 
+“/PU 环境/NN 污染/NN 是/VC 民生/NN 之/DEG 患/NN 、/PU 民心/NN 之/DEG 痛/NN ”/PU ，/PU 治理/NN 环境/NN 污染/NN ，/PU 防治/VV 雾霾/NN ，/PU 政府/NN 要/VV 打/VV 一/CD 场/M “/PU 攻坚战/NN ”/PU ！/PU 同/AD 在/P 一/CD 片/M 天空/NN 下/LC ，/PU 我们/PN 又/AD 该/VV 如何/AD 参与/VV 到/VV 这/DT 场/M 与/CC 雾霾/NN 的/DEG “/PU 较量/NN ”/PU 中/LC ？/PU 3月/NT 6日/NT 晚/NT 19:00/NT -/PU 20:00/CD ，/PU 我们/PN 将/AD 邀请/VV @/NN 巴松/NR 狼王/NN 、/PU @/NN 王小东/NR 、/PU @/VV 大/JJ 脸撑/NN 在/P 小胸/NN 等/ETC 3/CD 位/M 网络/NN 大咖/NN ，/PU 与/P 大家/PN 谈谈/VV 雾霾/NN 这/DT 档子/M 事儿/NN 。/PU 防治/VV 雾霾/NN ，/PU 您/PN 有/VE 什么/DT 好/JJ 点子/NN ？/PU 
+访谈/NN 时间/NN ：/PU 3月/NT 6日/NT 19:00/NT -/PU 20:00/CD 
+显示/VV ：/PU 全部/AD 问/VV 答/VV 访谈/NN 内容/NN (/PU 共/AD 81/CD 个/M 问题/NN ,/PU 47/CD 个/M 回复/VV )/PU 
+主持人/NN 
+微谈/NN 网事/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 今天/NT 的/DEG 访谈/NN 结束/VV 时间/NN 了/SP ，/PU 但是/AD #/AD 防治/VV 雾霾/NN 从/P 我/PN 做起/VV #/VV 的/DEC 话题/NN 一直/AD 开放/VV ，/PU 大家/PN 还/AD 可以/VV 继续/VV 讨论/VV 哈/IJ ！/PU 非常/AD 感谢/VV 各位/DT 嘉宾/NN 抽出/VV 周末/NT 的/DEG 宝贵/JJ 时间/NN 与/CC 网友们/NN 进行/VV 交流/NN ，/PU 也/AD 感谢/VV 各位/PN 网友/NN 的/DEG 参与/NN ！/PU 
+3月/NT 6日/NT 20/CD :/PU 04/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+路曼曼/NR 去/VV 远方/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 向/P @/NN 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN ：/PU 请/VV 问/VV 师/NN 太/AD 如果/CS 想/VV 进行/VV 室外/NN 运动/NN 的话/SP 从/P 空气/NN 质量/NN 的/DEG 角度/NN 考虑/VV 选择/VV 一/CD 天/M 中/LC 的/DEG 什么/DT 时段/NN 更/AD 好/VA ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:27/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+大/JJ 脸撑/NN 在/P 小/JJ 胸/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 选/VV 时段/NN 不/AD 如/P 选/NN 日子/NN ！/PU 因为/P 如果/CS 空气/NN 不/AD 好/VA 的话/SP ，/PU 哪个/DT 时段/NN 也/AD 不/AD 好/VA ，/PU 晚上/NT 有/VE 逆温层/NN ，/PU 白天/NN 高峰期/NN 尾气/NN 排放/NN ，/PU 饭点/NN 餐饮业/NN 全/AD 在/P 喷/VV ，/PU 昨天/NT 一/CD 晚上/NT 放/VV 鞭炮/NN 空气/NN 严重/JJ 污染/NN 谁/PN 敢/VV 出去/VV …/PU 所以/AD 还是/AD 不/AD 要/VV 拘泥于/VV 时段/NN 了/SP ，/PU 空气/NN 不/AD 好/VA 就/AD 别/AD 出去/VV ，/PU 空气/NN 好/VA 就/AD 抓紧/VV 多/AD 出去/VV ，/PU 把/BA 户外/JJ 锻炼/NN 当做/VV 一/CD 种/M 缘/NN ，/PU 妙不可言/VV 
+3月/NT 6日/NT 20/CD :/PU 04/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+云无赠/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 请/VV 问/VV 燃放/VV 半/CD 小时/NN 烟花/NN 爆竹局/NN 地/DEV 空气/NN 是否/VV 对/P 人体/NN 有害/VV ？/PU 可否/VV 禁止/VV 燃放/VV ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:59/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 有害/VV 是/VC 有害/VV ，/PU 但/AD 一/CD 年/M 就/AD 这么/AD 一/CD 次/M ，/PU 忍/VV 了/AS 吧/SP 
+3月/NT 6日/NT 20:00/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+CAPT/NR _/VV Jin/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 师/NN 太/AD ，/PU 由于/P 船舶/NN 被/SB 允许/VV 使用/VV 硫/NN 含量/NN 比/P 汽车/NN 用/P 柴油/NN 更/AD 高/VA 的/DEC 燃料/NN ，/PU 有/VE 报导/NN 称/VV 一/CD 艘/M 沿/P 中国/NR 海岸线/NN 行驶/VV 的/DEC 大型/JJ 集装箱/NN 船/NN ，/PU 一/CD 天/M 的/DEG 排放量/NN 就/AD 相当于/VV 50万/CD 辆/M 卡车/NN 造成/VV 的/DEC 污染/NN 。/PU 这/PN 是/VC 真的/AD 么/SP ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:45/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 你/PN 这个/DT 数/NN 我/PN 不/AD 知道/VV ，/PU 但/AD 这个/DT 船/NN 的/DEC 排放/NN 在/P 海上/NN ，/PU 祸害/VV 应该/VV 小点/NN 吧/SP 
+3月/NT 6日/NT 19:59/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+京蘭/NR 60/CD ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NN @/NN 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN @/VV 王小东/NR 提问/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 雾霾/NN 的/DEG 成因/NN 到底/AD 是/VC 什么/DT ?/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:18/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+巴松/NR 狼/NN 王/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 请/VV 参考/VV 我/PN 2014年/NT 3月/NT 23日/NT 发/VV 的/DEC 一/CD 条/M 专门/AD 解释/VV 雾/NN 、/PU 霾/NN 和/CC “/PU 雾霾/NN ”/PU 微博/NN ，/PU 成/VV 因/P 请/VV 看/VV 链接/NN ：/PU http/NN :/PU ///PU t.cn/NR //PU R7/NN C2wpM/NN 
+3月/NT 6日/NT 19:55/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+如/AD 花似/VV 玉饺子/NN 精/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 主要/JJ 提问/NN 师/NN 太/AD ，/PU 这么/AD 喜欢/VV 做饭/VV ，/PU 会/VV 因为/P 环保/NN 多/AD 吃/VV 饺子/NN 包子/NN 煮/VV 食/NN 、/PU 蒸食/NN 少/AD 爆炒/VV 吗/SP ？/PU ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:50/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+大/JJ 脸撑/NN 在/P 小/JJ 胸/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 我/PN 的确/AD 吃/VV 煎/JJ 炸/JJ 食物/NN 少/VA ，/PU 吃/VV 蒸煮/NN 食物/NN 多/VA ，/PU 但/AD 主要/AD 是/VC 因为/P 煎/JJ 炸/JJ 食物/NN 不/AD 健康/VA 嘛/SP 垃圾/NN 食品/NN ，/PU 你/PN 这么/AD 一/AD 说/VV 倒/VV 提醒/VV 我/PN 了/SP ，/PU 下/DT 次/M 再/AD 有/VE 复读机/NN 来/MSP 质问/VV 我/PN 为/P 雾霾/NN 做/VV 了/AS 什么/DT 我/PN 就/AD 告诉/VV ta/NN ：/PU 我/PN 为/P 雾霾/NN 吃/VV 饺子/NN ！/PU 我/PN 为/P 雾霾/NN 吃/VV 包子/NN ！/PU 我/PN 为/P 雾霾/NN 吃/VV 汤圆/NN ！/PU 我/PN 为/P 雾霾/NN 吃/VV 馄饨/NN …/PU …/PU 艾玛/NR 饿死/VV 我/PN 了/SP ，/PU 这/PN 访谈/VV 怎么/AD 还/AD 不/AD 完/VV ！/PU 
+3月/NT 6日/NT 19:56/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 为/VC 环保/NN 改变/VV 食谱/NN ，/PU 我/PN 认为/VV 不/AD 靠/VV 谱/VV ！/PU 亏待/VV 了/AS 嘴/NN ，/PU 也/AD 顶/VV 不/AD 了/VV 啥/AD 用/VV 
+3月/NT 6日/NT 19:53/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+如/AD 花似/VV 玉饺子/NN 精/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 关于/P 口罩/NN 戴/VV 不/AD 严实/VA 是/VC 不/AD 是/VC 也/AD 白戴/VV 啊/SP ，/PU 老百姓/NN 该/VV 怎么/AD 更/AD 有效/VA 的/DEC 防霾/NN 呢/SP ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:45/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 口罩/NN 戴/VV 严实/VA 了/AS 怎么/AD 喘气/VV 啊/SP ？/PU 我/PN 戴/VV 过/AS 一/CD 两/CD 天/M ，/PU 感觉/VV 不/AD 靠谱/VA ，/PU 还是/AD 不/AD 戴/VV 了/AS 
+3月/NT 6日/NT 19:50/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+无敌/VV 爱/VV 吃/VV 鬼/NN 彤彤/NR ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 环保/NN 执法/NN 难/AD 到底/AD 难/AD 在/VV 哪/PN ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19/CD :/PU 20/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+巴松/NR 狼/NN 王/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 举/VV 个/M 小/JJ 例子/NN ：/PU 路/NN 上/LC 对/P 在/P 用/P 机动车/NN 超标/VV 排放/VV 执法/NN ，/PU 过去/NT 罚/VV 100/CD 元/M ，/PU 现在/NT 提高/VV 到/VV 300/CD 元/M ，/PU 但/AD 一般/JJ 程序/NN 不/AD 能/VV 当场/AD 处罚/VV ，/PU 要/VV 经过/VV 9道/NN 程序/NN ，/PU 车主/NN 说/VV ，/PU 我/PN 耽误/VV 不/AD 起/VV 这/DT 功夫/NN ，/PU 给/P 您/PN 300/CD 元/M 什么/PN 都/AD 不/AD 要/VV 行/VV 不/AD ？/PU 按/P 规定/NN 不/AD 行/VV ，/PU 因此/AD 矛盾/NN 不少/AD 。/PU 据/P 了解/NN ，/PU 这个/DT 问题/NN 仍然/AD 没有/VE 解决/NN 。/PU 
+3月/NT 6日/NT 19:50/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+悟空/NN 家族/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NN @/NN 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN @/VV 王小东/NR 提问/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 用/VV 了/AS 空气/NN 净化器/NN 后/LC ，/PU 为了/P 保持/VV 室内/NN 的/DEG 空气/NN 质量/NN 就/AD 得/VV 不/AD 能/VV 开/VV 窗户/NN ，/PU 这样/JJ 一/CD 来/M 就/AD 要/VV 多/AD 使用/VV 空调/NN ，/PU 用电量/NN 增加/VV ，/PU 又/AD 增加/VV 污染/NN 。/PU 形成/VV 局部/JJ 改善/NN ，/PU 整体/NN 恶化/VV ，/PU 对/VA 不/AD 对/VA 呢/SP ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:38/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 这个/DT 这个/DT 嘛/SP …/PU …/PU 恐怕/AD 就/AD 是/VC 这样/VA 了/SP 。/PU 包括/VV 很多/CD 其他/DT 环保/NN 措施/NN ，/PU 有的/PN 比/P 你/PN 说/VV 的/DEC 这个/DT 例子/NN 还/AD 大/VA ，/PU 从/P 国家/NN 看/VV ，/PU 是/VC 改善/VV 了/AS ，/PU 从/P 地球/NN 看/VV ，/PU 是/VC 恶化/VV 了/AS 
+3月/NT 6日/NT 19:49/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+韩东言/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 柴静/NN 雾霾/NN 纪录片/NN ，/PU 是/VC 总编/NN 导请/VV 的/DEC 主持人/NN ，/PU 还是/CC 主持人/NN 请/VV 的/DEC 总/JJ 导演/NN ？/PU 这个/DT 片子/NN 幕后/NN 的/DEG 话语权/NN 是/VC 柴静/VA 还是/CC 那个/DT 总/JJ 导演/NN ？/PU 会/VV 不/AD 会/VV 有/VE 一/CD 天/M 柴静/VV 揭秘/VV ，/PU 雾霾/NN 片子/NN ，/PU 她/PN 被/LB 黑/JJ 了/SP ，/PU 受骗/VV 了/AS ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:43/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 内幕/NN 的/DEG 事/NN ，/PU 听/VV 了/AS 不少/CD ，/PU 没有/VE 确凿/JJ 证据/NN ，/PU 不/AD 敢/VV 说/VV ，/PU 不/AD 好/AD 说/VV ，/PU 等/VV 以后/LC 看/VV 吧/SP 
+3月/NT 6日/NT 19:46/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+AIRPLOT/NR 空气/NN 战略/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN [/PU cp/NN ]/PU @/VV AIRPLOT/NR 空气/NN 战略/NN :/PU 产生/VV 雾霾/NN 的/DEC 原因/NN 很/AD 多/VA ，/PU 担心/VV 之/DEC 余/NN 并/AD 不/AD 可/VV 畏/VV ！/PU 如果/CS 节能/VV 环保/NN 真正/AD 能/VV 落到/VV 实处/NN ，/PU 蓝天/NN 白云/NN 指日可待/VV 。/PU 请/VV 问/VV 在/P 减少/VV 污染/NN 、/PU 节能/NN 减排/VV 方面/NN ，/PU 国家/NN 将/AD 对/P 高/JJ 污染/NN 企业/NN 采取/VV 哪些/DT 制裁/NN 措施/NN ?/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:34/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+巴松/NR 狼/NN 王/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 人大/NN 出台/VV 了/AS 新/JJ 环保法/NN ，/PU 被/SB 称为/VV “/PU 史/NN 上/LC 最/AD 严/VA 的/DEC 环保法/NN ”/PU ，/PU “/PU 有/VE 牙齿/NN ”/PU 、/PU “/PU 零/CD 容忍/NN ”/PU ，/PU 惩治/VV 措施/NN 严格/VA 。/PU 但/AD 光/AD 有/VE 严格/JJ 法律/NN 还/AD 不/AD 够/VA ，/PU 法律/NN 不/AD 好用/VV 、/PU 执行/VV 不/AD 严/VA 都/AD 不/AD 行/VV 。/PU 过去/NT 老/AD 说/VV 得/DER 出手/VV ，/PU 现在/NT 还/AD 得/VV 上/VV 牙咬/NN ，/PU 就/AD 是/VC 要/VV 对/P 环境/NN 违法/VV 的/DEC 人/NN 和/CC 事/NN 形成/VV 人人/NN 喊/VV 打/VV 之/DEC 势/NN 。/PU 
+3月/NT 6日/NT 19:44/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+追西西/VV ：/PU 向/P @/NN 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 感觉/NN 上/LC 北京/NR 雾霾/NN 的/DEG 消散/NN 基本/AD 靠风吹/VV ，/PU 那么/AD 能/VV 不/AD 能/VV 研究/VV 个/M 人工/JJ 的/DEG 方法/NN （/PU 像/P 人工/JJ 降雨/NN 一样/AD 来/VV 个/M 人工/JJ 鼓风/NN ）/PU ，/PU 有/VE 雾霾/NN 的/DEC 时候/NN 就/AD 人工/AD 作业/VV 给/P 吹到/VV 海上/NN 去/VV ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:30/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+大/JJ 脸撑/NN 在/P 小/JJ 胸/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 人工/JJ 鼓风/NN 很/AD 容易/VA ，/PU 机场/NN 就/AD 有/VE ，/PU 但/AD 关键/NN 是/VC 规模/NN ，/PU 要/VV 能/VV 吹散/VV 城市/NN 雾霾/NN ，/PU 现/JJ 阶段/NN 无法/AD 实现/VV 。/PU 我/PN 记得/VV 南开/NR 大学/NN 设计/VV 出/VV 了/AS 实验室/NN 小型/JJ 人工/JJ 龙卷风/NN ，/PU 但/AD 要/VV 想/VV 实现/VV 这个/DT 规模/NN 恐怕/AD 还/AD 很/AD 遥远/VA ，/PU 还/AD 要/VV 控制/VV 其/PN 走向/NN ，/PU 能源/NN 成本/NN 也/AD 是/VC 问题/NN 。/PU 我/PN 觉得/VV 治理/NN 雾霾/NN 还是/AD 老老实实/AD 限排/VV ，/PU 这些/DT 偏门/NN 都/AD 是/VC 治标/NN 不治本/VV 。/PU 
+3月/NT 6日/NT 19:43/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+cbcbn/NR 2010/CD ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 外国/NN 的/DEG 哪些/DT 治理/NN 雾霾/NN 经验/NN 对/P 我们/PN 比较/AD 有/VE 意义/NN 呢/SP ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:34/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 我/PN 能/VV 说/VV 实话/NN 不/AD ？/PU 要是/CS 说/VV 实话/NN ，/PU 外国/NN 最/AD 有效/VA 地/DEV 治理/VV 经验/NN 就/AD 是/VC 把/BA 工业/NN 转移/VV 出去/VV 祸害/VV 别人/NN 。/PU 咱/PN 不/AD 是/VC 心眼/NN 好/VA 不/AD 转移/VV ，/PU 咱/PN 是/VC 还/AD 没有/AD 转移/VV 出去/VV 的/DEC 本钱/NN 
+3月/NT 6日/NT 19:42/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+刘嘉祎乄/NR Sky/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 那么/AD 问题/NN 又/AD 来/VV 了/AS ，/PU 为什么/AD 不/AD 能/VV 有点/AD 地方性/JJ 保护/NN 呢/SP 比如/AD 限制/VV 拥有/VV 京牌/NN 的/DEG 外地/NN 车主/NN 上路/VV 时间/NN ？/PU 限购/VV 起步/NN 较/AD 晚/VA 就/AD 得/VV 有点/AD 强制性/VA 的/DEC 手段/NN 不/AD 是/VC 么/SP http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:33/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 虽然/CS 我/PN 也/AD 是/VC 北京人/NN ，/PU 但/AD 你/PN 这个/DT 主张/NN ，/PU 歧视/VV 外地/NN 人/NN ，/PU 那/AD 能/VV 行/VV 得/DER 通/VV 吗/SP ？/PU 北京/NR 是/VC 全/DT 国/NN 人民/NN 的/DEG 北京/NR 
+3月/NT 6日/NT 19:44/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+巴松/NR 狼/NN 王/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 我/PN 也/AD 是/VC 北京人/NN ，/PU 春节/NN 我们/PN 有/VE 一/CD 个/M 调侃/VV 的/DEC 段子/NN ：/PU 只有/CS 那/DT 七/CD 天/M 北京/NR 才/AD 是/VC 北京人/NN 的/DEC 北京/NR ，/PU 春节/NN 一/CD 过/AS 北京/NR 就/AD 改/VV 首都/NN 模式/NN 了/SP 。/PU 你/PN 看/VV 就/AD 这个/DT 段子/NN 都/AD 没/AD 忘/VV 了/AS 我们/PN 毕竟/AD 是/VC 首都/NN ，/PU 怎么/AD 能/VV 对外/JJ 同胞/NN 下手/VV 太/AD “/PU 黑/JJ ”/PU 呢/SP ？/PU 我/PN 知道/VV 你/PN 也/AD 是/VC 探讨/VV 问题/NN ，/PU 想想/VV 还/AD 有/VE 没/AD 有/VE 更/AD 好/VA 的/DEC 主意/NN ？/PU 
+3月/NT 6日/NT 19:41/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+都/AD 亨海/VV 元/M ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 能/VV 简单/VA 的/DEV 说/VV 一下/AD 推进/VV 经济/NN 建设/NN 与/CC 环境/NN 保护/NN 的/DEG 平衡/NN 的/DEG 着力点/NN 在/P 哪个/DT 方向/NN 么/SP http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:34/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 跟/P 你/PN 说/VV 白/JJ 了/SP 吧/SP ，/PU 得/VV 先/AD 吃饭/VV ，/PU 后/AD 环保/NN 。/PU 可以/VV 考虑/VV 在/P 环保/NN 上/LC 多/AD 花/VV 些/M 钱/NN ，/PU 关停/VV 并/AD 转/VV 一些/CD 技术/NN 落后/VA 的/DEC 污染/NN 企业/NN ，/PU 转移/VV 一些/CD 企业/NN 去/VV 国外/NN 更/AD 落后/VA 的/DEC 地方/NN ，/PU 但/AD 中国/NR 失业/NN 人口/NN 多/VA 了/AS 肯定/AD 不/AD 行/VV 。/PU 我/PN 看/VV 也/AD 就/AD 能/VV 牺牲/VV GDP/NR 一/CD 个/M 半/CD 个/M 百分点/NN 吧/SP 
+3月/NT 6日/NT 19:40/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+无敌/VV 爱/VV 吃/VV 鬼/NN 彤彤/NR ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 家里/NN 有/VE 孩子/NN ，/PU 准备/VV 买/VV 个/M 空气/NN 净化器/NN ，/PU 有用/VA 吗/SP ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:24/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+巴松/NR 狼/NN 王/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 有点儿/AD 用/VV ：/PU 一/CD 是/VC 有时/AD 确实/AD 管点儿/VV 用/VV 。/PU 二/OD 是/VC 心理/NN 上/LC 也/AD 是/VC 个/M 安慰/NN 。/PU 
+3月/NT 6日/NT 19:36/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+习/AD 科/VV ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 柴静/NN 到底/AD 有/VE 木/NN 有/VV 做/VV 假/NN ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:09/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 知道/VV 你/PN 转/VV 过来/VV 的/DEC 这个/DT 图/NN ，/PU 我/PN 说/VV 不/AD 好/VA ，/PU 不/AD 敢/VV 说/VV 
+3月/NT 6日/NT 19:34/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+都/AD 亨海/VV 元/M ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 请/VV 问/VV 一下/AD 环境/NN 的/DEG 保护/NN 和/CC 经济/NN 的/DEG 发展/NN 有/VE 相/AD 矛盾/VV 的/DEC 地方么/NN ？/PU 是/VC 可以/VV 调和/VV 的/DEC 么/SP ？/PU 为什么/AD 在/P 很多/CD 影视/NN 作品/NN 里/LC 都/AD 可以/VV 看到/VV 描绘/VV 人类/NN 未来/NT 的/DEG 画面/NN 都/AD 是/VC 黑烟/NN 高楼/NN 的/DEG 一/CD 副/M 环境/NN 破坏/NN 殆/AD 尽/VV 的/DEC 模样/NN ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19/CD :/PU 29/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+巴松/NR 狼/NN 王/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 这个/DT 矛盾/NN 怎么/AD 解决/VV ？/PU 要/VV 绿水/NN 青山/NN 还是/AD 要/VV 金山/NR 银山/NN ，/PU 既/AD 要/VV 绿水/NN 青山/NN 也/AD 要/VV 金山/NR 银山/NN ，/PU 绿水/NN 青山/NN 就/AD 是/VC 金山/NR 银山/NN ，/PU 这/DT 三/CD 个/M 提法/NN 绝对/AD 不/AD 是/VC 简单/VA 的/DEC 文字/NN 排列/VV ，/PU 而/AD 是/VC 重大/VA 的/DEC 思想/NN 方法/NN 和/CC 发展/NN 方式/NN 的/DEG 转变/NN 。/PU 但/AD 现在/NT 问题/NN 是/VC ，/PU 有/VE 多少/CD 人/NN 听/VV 进去/VV 了/AS ，/PU 有/VE 多少/CD 人/NN 按/VV 着/AS 做/VV 了/AS ？/PU 
+3月/NT 6日/NT 19:46/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 肯定/AD 有/VE 矛盾/NN 的/DEG 地方/NN ，/PU 要是/CS 没/VE 矛盾/NN 的/DEG 地方/NN ，/PU 不/AD 就/AD 啥/AD 争论/NN 都/AD 没/VV 了/AS ，/PU 大力/AD 环保/NN 就/AD 行/VV 了/SP 。/PU 因为/CS 有/VE 矛盾/NN 的/DEG 地方/NN ，/PU 所以/AD 要/VV 平衡/VV 
+3月/NT 6日/NT 19:33/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+妖女/NN 紫霞/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 请/VV 问/VV 各位/PN 老师/NN 博士/NN ，/PU 空气/NN 净化器/NN 对于/P 室内/NN 除/P PM2.5/NN 有/VE 实际/JJ 作用/NN 吗/SP ？/PU 还是/CC 只/AD 是/VC 起/VV 个/M 心理/NN 安慰/NN 而已/SP ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19/CD :/PU 29/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+大/JJ 脸撑/NN 在/P 小/JJ 胸/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 当然/AD 是/VC 有用/VA 的/SP 。/PU 其实/AD 空气/NN 净化器/NN 也/AD 没/VE 什么/DT 神秘/JJ 的/DEG ，/PU 跟/P 前面/NN 说/VV 的/DEC 一样/VA ，/PU 一/CD 是/VC 滤层/NN 二/OD 是/VC 密闭性/NN 。/PU 所以/AD 你/PN 要/VV 记/VV 着/AS 定时/AD 去/VV 换/VV 滤层/NN ，/PU 不然/AD 反倒/AD 造成/VV 二/OD 次/M 污染/NN 。/PU 还/AD 有/VE 一/CD 点/M ，/PU 如果/CS 你/PN 长期/AD 密/AD 闭门/VV 窗/NN ，/PU 就算/AD 开/VV 着/AS 净化器/NN ，/PU 能/VV 滤掉/VV 颗粒物/NN ，/PU 却/AD 可能/VV 其他/DT 废气/NN 和/CC 浊气/NN 超标/VV ，/PU 对/P 人体/NN 也/AD 不/AD 好/VA ~/PU 
+3月/NT 6日/NT 19:34/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+王小东/NR ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 据/P 我/PN 所/MSP 知/VV ，/PU 空气/NN 净化器/NN 还是/AD 有/VE 作用/NN 的/SP ，/PU 不过/AD 得/VV 买/VV 好/VA 的/SP ，/PU 买/VV 好/VA 的/DEC 比较/AD 贵/VA 
+3月/NT 6日/NT 19/CD :/PU 31/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+贞夫子/NN ：/PU 向/P @/NN 巴松/NR 狼/NN 王/NR @/NN 王小东/NR @/VV 大/JJ 脸撑/NN 在/P 小/JJ 胸/NN 提问/NN :/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 雾霾/NN 都/AD 是/VC 自然/AD 形成/VV 的/SP 吗/SP ？/PU 能/VV 不/AD 能/VV 人工/AD 造霾/VV ，/PU 比如/AD 用于/VV 防御/NN 激光/NN 武器/NN ？/PU http/NN :/PU ///PU t.cn/NR //PU RwnHkO5/NN 
+3月/NT 6日/NT 19:18/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+大/JJ 脸撑/NN 在/P 小/JJ 胸/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/NN 雾霾/NN 有/VE 两/CD 个/M 必要/JJ 条件/NN ：/PU 1/CD 是/VC 污染物/NN 排放/VV 超过/VV 大气/NN 自/P 净化/VV 能力/NN 2/CD 是/VC 静稳/VV 天气/NN 。/PU 人工/JJ 造霾/NN 的/DEG 话/NN 也/AD 要/VV 实现/VV 这/DT 两/CD 点/M 。/PU 1/CD 肯定/AD 不/AD 是/VC 问题/NN ，/PU 我们/PN 这/PN 不/AD 一直/AD 在/AD 排么/AD 可/VV 拿手/VV 了/AS ；/PU 2/CD 在/P 现/JJ 阶段/NN 还/AD 做/VV 不/AD 到/VV ，/PU 人工/JJ 影响/NN 天气/NN 目前/NT 手段/NN 还/AD 有限/VA ，/PU 造出/VV 静稳/JJ 天气/NN 这/DT 暂时/AD 无法/AD 想象/VV 。/PU 
+3月/NT 6日/NT 19:48/NT 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+本/DT 期/M 嘉宾/NN 
+巴松/NR 狼/NN 王/NN ：/PU #/NN 防治/NN 雾霾/NN 从/P 我/PN 做起/VV #/VV 《/PU 辞海/NN 》/PU ：/PU 雾/NN 、/PU 霾/NN 都/AD 是/VC 天气/NN 现象/NN 。/PU 雾/NN 是/VC 大气/NN 中/LC 的/DEG 水滴/NN 冰晶雾/NN 是/VC 清白/VA 的/SP 。/PU 霾/NN 是/VC 大气/NN 中/LC 的/DEG 烟气/NN 微尘/NN 盐分/NN ，/PU 亦/AD 称/VV “/PU 雨土/NN ”/PU ，/PU 说/VV 的/DEC 是/VC 自然/NN 中/LC 的/DEG 尘埃/NN 。/PU 这/DT 种/M 现象/NN 古来/AD 就/AD 有/VE ，/PU 我们/PN 今天/NT 谈及/VV 的/DEC “/PU 雾霾/NN ”/PU ，/PU 则/AD 是/VC 人为/AD 造成/VV 的/DEC 污染/NN ，/PU 不/AD 能/VV 混淆/VV ！/PU 我/PN 以前/NT 发/VV 过/AS 微博/NN ，/PU 欢迎/VV 参阅/VV ！/PU 
+3月/NT 6日/NT 19/CD :/PU 29/CD 来自/VV 微/AD 访谈/VV -/PU 防治/VV 雾霾/NN 从/P 我/PN 做起/VV 
+返回/VV 顶部/NN 
+1/CD 2/CD 3/CD 下/DT 一/CD 页/M 
+访谈/NN 嘉宾/NN 
+巴松/NR 狼王/NN 
+粉丝/NR 4734336/CD 人/NN 
+嘉宾/NN 介绍/VV ：/PU 绿色/JJ 中国/NR 年度/NN 人物/NN 杜少/NN 中/LC 
+大/JJ 脸撑/NN 在/P 小胸/NN 
+粉丝/NR 2773449/CD 人/NN 
+嘉宾/NN 介绍/VV ：/PU 中国/NR 科学院/NN 气象学/NN 博士后/NN ，/PU 《/PU 武侠/NN ，/PU 从/P 牛/NN A/NN 到/VV 牛C/NN 》/PU 作者/NN 
+王小东/NR 
+粉丝/NR 1716274/CD 人/NN 
+嘉宾/NN 介绍/VV ：/PU 著名/JJ 学者/NN 王小东/NR 
+主持人/NN 
+微谈/NN 网事/NN 
+粉丝/NR 643/CD 人/NN 
+主持人/NN 介绍/VV ：/PU 媒体/NN 人/NN 
+微/AD 访谈/VV 列表/NN 
+已/AD 结束/VV 
+乐嘉/NR 、/PU 沙溢/NN 、/PU 阮經天/NN 、/PU 岳云鹏/NN ：/PU #/NN 了不起/VV 的/DEC 挑战/NN #/VV 六/CD 兄弟微/NN 访谈/NN 2016年/NT 01月/NT 03日/NT 19:00/NT -/PU 20/CD :/PU 30/CD 
+朱丹/NR ：/PU #/P 家庭/NN 幽默/NN 大赛/NN #/VV 朱丹微/NR 访谈/NN 2016年/NT 01月/NT 02日/NT 16:30-17/NT :/PU 30/CD 
+周觅/NR MI/NR 、/PU 张睿/NR Ray/NN 、/PU 韩栋/NR 、/PU 叶祖新/NR 、/PU 葛天_/NR panda/NR 、/PU 张佳宁/NR ：/PU #/NN 星星/NR 的/DEG 密室/NN #群/NN 星/NN 微访/VV .../CD 2015年/NT 12月/NT 27日/NT 20:00/CD -/PU 21:00/CD 
+伍嘉成/VV 5/CD 十/CD X/NN ：/PU 少年/NN 伍嘉成/VV 的/DEC 成长/NN 趣事/NN 2015年/NT 12月/NT 26日/NT 21:00/CD -/PU 22:00/CD 
+阿雅/NR ：/PU #西/NR 游奇/NR 遇记/VV #/VV 阿雅微/NR 访谈/NN 2015年/NT 12月/NT 26日/NT 19:00/NT -/PU 20/CD :/PU 30/CD 
+王祖藍/NR ：/PU #/NN 奔跑/VV 吧/SP 兄弟/NN #/VV 王祖蓝微/NR 访谈/NN 2015年/NT 12月/NT 25日/NT 20:00/CD -/PU 21/CD :/PU 30/CD 
+岳云鹏/NR 、/PU 金世佳/NN ：/PU 《/PU 西游奇/NR 遇记/NN 》/PU 西/NN 行/VV 天团微/NN 访谈/NN 2015年/NT 12月/NT 19日/NT 18/CD :/PU 30/CD -/PU 20/CD :/PU 30/CD 
+王祖藍/NR ：/PU #/NN 奔跑/VV 吧/SP 兄弟/NN #/VV 小/JJ 飞象/NN 王祖蓝微/NR 访谈/NN 2015年/NT 12月/NT 18日/NT 20:00/CD -/PU 21/CD :/PU 30/CD 
+丁芙妮/NR 、/PU 胡栋栋/NR 、/PU 李方/NR 合阿/VV ：/PU #/NN pptv/NN 一/AD 唱/VV 成名/VV #微/NN 访谈/NN 2015年/NT 12月/NT 18日/NT 15:00-16:00/NT 
+黄健翔/NR ：/PU #/NN 加油/VV 小/JJ 当家/JJ #/NN 黄健翔/NR 捕鱼/VV 记/VV 2015年/NT 12月/NT 18日/NT 00/NT :/PU 00/CD -/PU 23:00/CD 
+申请/VV 微/AD 访谈/VV 
+微博/NR 主持人/NN 
+微/AD 访谈/VV 接受/VV 各/DT 领域/NN 名人/NN 做客/VV ，/PU 提供/VV 申请/NN 开放/VV 平台/NN 。/PU 如/CS 有/VE 需求/NN 请/VV 私信/NN @/VV 微博/JJ 主持人/NN 。/PU 商业/NN 品牌/NN 宣传/NN 内容/NN 请/VV 沟通/VV 销售部/NN 。/PU 谢谢/VV 关注/VV ！/PU 
+</PU grocolumn/NR >/PU 
+</PU grorow/NR >/PU 

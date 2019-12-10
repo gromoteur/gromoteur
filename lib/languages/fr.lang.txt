@@ -1,0 +1,300 @@
+ Wikipédia est là quand vous en avez besoin — aujourd’hui, elle a besoin de vous.
+Faites un don »
+[Dérouler]
+Soutenez Wikipédia: c’est un projet à but non lucratif.
+Faites un don »
+Atome
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à : Navigation, Rechercher
+
+Un atome (grec ancien ατομος [atomos], « que l'on ne peut diviser »)[1] est la plus petite partie d'un corps simple pouvant se combiner chimiquement avec une autre. Il est généralement constitué d'un noyau composé de protons et de neutrons autour desquels se trouvent des électrons. La taille de son diamètre est de l'ordre du dixième de nanomètre (nm), soit 10-10 m.
+
+La théorie atomiste, qui soutient l'idée d'une matière composée de "grains" indivisibles (contre l'idée d'une matière indéfiniment sécable), est connue depuis l'antiquité, et fut en particulier défendue par Démocrite, philosophe de la Grèce antique. Elle fut disputée jusqu'à la fin du XIXe siècle, mais n'est plus aujourd'hui l'objet de la moindre controverse. C'est en particulier sur cette notion d'atome que reposent les sciences de la matière modernes. L'atome n'est cependant plus considéré comme un grain de matière insécable, depuis les expériences de physique nucléaire ayant mis à jour sa structure au début du XXe siècle.
+
+En chimie, les atomes sont les éléments de base. Ils constituent la matière et forment les molécules en partageant des électrons. Les atomes restent, grosso modo, indivisibles au cours d'une réaction chimique (en acceptant les légères exceptions que constituent les échanges des électrons périphériques).
+
+Cependant, depuis le début du XXe siècle, des expériences de physique nucléaire ont mis en évidence l'existence d'une structure complexe pour le noyau atomique. Les constituants de l'atome que sont des particules élémentaires.
+Un atome d'Hélium, avec en rose le Noyau atomique et autour le Nuage électronique
+Sommaire
+[masquer]
+
+    * 1 Caractéristiques de l'atome
+    * 2 Histoire de l'atome
+          o 2.1 Antiquité : un concept philosophique
+          o 2.2 La chimie du XVIIIe siècle — les éléments
+          o 2.3 La physique du XVIIIe siècle — les particules
+          o 2.4 XIXe siècle — le triomphe de l'atome
+          o 2.5 Bilan
+    * 3 Historique des modèles de l'atome
+          o 3.1 Modèles obsolètes
+                + 3.1.1 Le modèle de J.J. Thomson ou modèle du far aux pruneaux (plum-pudding)
+                + 3.1.2 Le modèle planétaire de Rutherford
+          o 3.2 Modèles approchés couramment employés
+                + 3.2.1 Le modèle des sphères dures
+                + 3.2.2 Le modèle de Bohr
+    * 4 Le modèle actuel : modèle de Schrödinger
+    * 5 Le noyau atomique
+    * 6 Notation
+          o 6.1 Notes
+    * 7 Voir aussi
+          o 7.1 Articles connexes
+          o 7.2 Bibliographie
+          o 7.3 Liens externes
+
+Caractéristiques de l'atome [modifier]
+
+La majeure partie de la masse de l'atome se trouve concentrée dans un très faible volume (dimension de l'ordre de 10-15 m) : le noyau, composé de deux sortes de particules semblables, appelées nucléons :
+
+    * les neutrons, particules de charge électrique nulle, et de masse égale à :
+
+            mn = 1,67495 ×10-27 kg ;
+
+    * les protons, particules de charge électrique positive égale à :
+
+            q=e = 1,602 176 ×10-19 C,
+
+    et de masse égale à :
+
+            mp = 1,67265 ×10-27 kg.
+
+La masse du proton étant très proche de celle du neutron, il est pratique de caractériser un noyau par son nombre de nucléons, appelé nombre de masse.
+
+Autour du noyau se trouve le cortège électronique,« un nuage » de particules identiques : les électrons ; les dimensions de ce nuage électronique (de l'ordre d'un angström, ou 10-10 m) correspondent à celles de l'atome.
+
+Les électrons possèdent une charge électrique négative égale à :
+
+            -e = -1,602 176 ×10-19 C,
+
+identique à celle du proton en valeur absolue ; leur masse est bien plus faible que celles des nucléons (1836 fois moindre) :
+
+            me = 9,109 53 ×10-31 kg.
+
+La charge électrique d'un atome est neutre, car le nombre d'électrons (chargés négativement) du nuage électronique est égal au nombre de protons (chargés positivement) constituant le noyau. Ainsi, les charges électriques s'annulent d'un point de vue macroscopique.
+
+Les atomes sont susceptibles de se charger électriquement en gagnant ou en perdant un ou plusieurs électrons : on parle alors d'ions. Du fait qu'un électron a une charge électrique négative, si un atome gagne un ou plusieurs électrons, la charge de l'atome devient négative (anion), et s'il en perd, la charge de l'atome devient positive (cation).
+
+Les propriétés physiques et chimiques des atomes dépendent essentiellement du nombre de protons qui composent leur noyau. Aussi, les atomes sont-ils classés suivant ce nombre, appelé numéro atomique.
+
+La matière constituée d'un ensemble quelconque d'atomes de même nombre atomique est un corps simple, ou élément chimique. Les atomes ayant un même nombre atomique, mais des nombres de masse différents (nombre de neutrons différent), sont appelés isotopes.
+
+Les différents éléments chimiques artificiels ou naturels ont été ordonnés en fonction de leurs propriétés dans le tableau périodique des éléments.
+
+Histoire de l'atome [modifier]
+Icône de détail Article détaillé : Frise chronologique de la physique microscopique.
+
+Le concept d'atome est particulièrement bien admis par le grand public, pourtant, paradoxalement, les atomes ne peuvent pas être observés par des moyens optiques et seuls quelques rares physiciens manipulent des atomes isolés. L'atome est donc un modèle essentiellement théorique. Bien que ce modèle ne soit plus aujourd'hui remis en cause, il a beaucoup évolué au cours du temps pour répondre aux exigences des nouvelles théories physiques et correspondre avec les différentes expérimentations effectuées.
+
+Antiquité : un concept philosophique [modifier]
+
+Il est probable que plusieurs peuples aient développé la notion de «grain composant la matière», tant ce concept semble évident lorsque l'on morcelle une motte de terre, ou en regardant une dune de sable. Dans la culture européenne, ce concept apparaît pour la première fois dans la Grèce antique au Ve siècle av. J.-C., chez les philosophes présocratiques, notamment Leucippe, env. 460-370 av. J.-C., Démocrite et, plus tard, Épicure.
+
+Il s'agit d'une conception du monde qui fait partie de la recherche des principes de la réalité, recherche qui caractérise les premiers philosophes : on suppose que la matière ne peut se diviser indéfiniment, qu'il y a donc une conservation des éléments du monde, qui se transforment ou se combinent selon des processus variés. La décomposition du monde en quatre éléments (eau, air, terre, feu) peut donc compléter cette thèse. L'atomisme est une solution concurrente, qui naît de l'opposition de l'être et du néant : l'atome est une parcelle d'être qui se conserve éternellement, sans quoi, les choses finiraient par disparaître. Ce fut, sans doute, un tournant philosophique majeur, à l'origine du matérialisme et de la critique de la religion. Cependant, même si l'empirisme épicurien tente d'établir cette hypothèse sur des bases scientifiques, l'atome demeure une intuition sans confirmations.
+
+La chimie du XVIIIe siècle — les éléments [modifier]
+
+Depuis des millénaires, on a remarqué que les produits se transforment : le feu, la métallurgie (transformation du minerai en métal), la corrosion (dégradation du métal), la vie, la cuisson des aliments, la décomposition de la matière organique… Par exemple, pour Empédocle, les transformations de la matière s'expliquaient de la manière suivante : il y avait quatre types d'éléments (eau, air, terre, feu) qui s'associaient et se dissociaient, en fonction de l'amour ou de la haine qu'ils se portaient — les fameux « atomes crochus ». Au Moyen Âge, les alchimistes ont étudié ces transformations et remarqué qu'elles suivent des règles bien précises. Vers 1760, des chimistes britanniques commencent à s'intéresser aux gaz produits par les réactions, afin d'en mesurer le volume et de les peser. Ainsi, Joseph Black, Henry Cavendish et Joseph Priestley découvrent différents « airs » (c'est-à-dire gaz) : l'« air fixe » (le gaz carbonique), l'« air inflammable » (le dihydrogène), l'« air phlogistiqué » (le diazote), l'« air déphlogistiqué » (le dioxygène)… (Le terme « phlogistique » provient de la théorie du chimiste allemand Georg Ernst Stahl, au début du XVIIIe siècle, pour expliquer la combustion ; cette théorie fut balayée par Lavoisier.)
+
+Antoine Laurent de Lavoisier (chimiste français) énonce en 1775 que [2] : « Rien ne se perd, rien ne se crée, tout se transforme » (formulé d'une manière légèrement différente à l'époque) signifiant par là que :
+
+    * la masse se conserve pendant les réactions chimiques.
+      Les scientifiques avaient observé que si l'on pesait la matière solide avant et après la combustion, on avait une variation de masse ; ceci provient d'un échange avec l'air (l'oxygène s'incorpore et alourdit, le gaz carbonique et la vapeur d'eau s'en vont et allègent). Il suffit pour s'en rendre compte de faire brûler dans une cloche fermée, et de peser la cloche en entier, somme solide et gaz (compris) : la masse totale ne change pas. ;
+    * les substances se décomposent en « éléments », c'est l'organisation de ces éléments qui change lors d'une réaction.
+
+Cette notion marque la véritable naissance de la chimie. Les chimistes ont donc commencé à recenser les éléments dont sont composées toutes les substances et à créer une nomenclature systématique — oxygène : qui génère des acides (οξυs signifie « acide » en grec) — hydrogène : qui génère de l'eau… Par exemple, en 1774, Lavoisier, en suivant les travaux des chimistes britanniques, établit que l'air se compose en « air vital » (dioxygène) et en « air vicié et méphitique, mofette » (diazote) ; en 1785, il décompose l'eau (en faisant passer de la vapeur d'eau sur du fer chauffé au rouge) et montre donc que ce n'est pas un élément, mais que l'eau est décomposable en éléments (c'est en fait une pyrolyse). Le terme d'« analyse » provient d'ailleurs de cette notion de décomposition, lusis (λυσιs) signifie « dissolution » en grec : on décompose les produits (par attaque acide, en les brûlant, en les distillant...) jusqu'à obtenir des substances simples reconnaissables facilement (l'hydrogène, l'oxygène, le carbone, le fer...).
+
+On a donc la première constatation expérimentale de la décomposition de la matière en substances élémentaires.
+
+La physique du XVIIIe siècle — les particules [modifier]
+
+Un autre pas, fait en parallèle, vient de l'étude des propriétés des gaz et de la chaleur (thermodynamique).
+
+Les fluides (liquides et gaz) sont étudiés en Europe depuis l'Antiquité, mais c'est au milieu du XVIIe siècle que l'on commence vraiment à cerner leur propriétés, avec l'invention du thermomètre (thermoscope de Santorre Santario, 1612), du baromètre et du vide pompé (Evangelista Torricelli, 1643), l'étude de l'expansion des gaz (Gilles Personne de Roberval, 1647), la pression atmosphérique (Blaise Pascal et Florin Perrier, 1648), les relations entre pression et volume (Robert Boyle en 1660, Edmé Mariotte en 1685), la notion de zéro absolu (Guillaume Amontons, 1702)...
+
+René Descartes (mathématicien, physicien et philosophe français) émet l'idée, en 1644, que les gaz sont composés de particules tourbillonnantes. Mais il ne s'agit là encore que d'une conception imagée, sans appui expérimental ; dans le même ordre d'idées, Descartes pensait que c'était aussi un tourbillon de « matière subtile » qui entraînait la rotation des planètes (ceci fut mis en défaut par Isaac Newton avec l'attraction universelle en 1687).
+
+Cependant, cette notion de corpuscules inspira d'autres scientifiques. Les mathématiciens suisses Jakob Hermann (1716) et Leonhard Euler (1729), mais surtout le physicien suisse Daniel Bernoulli (1733), effectuent des calculs en supposant que les gaz sont formés de particules s'entrechoquant, et leurs résultats sont en accord avec l'expérience. C'est la conception « cinétique » des gaz, c'est-à-dire l'explication de la température et de la pression par des particules en mouvement.
+
+Une autre science se développe à la fin du XVIIIe siècle : la cristallographie. Ce qui intrigue les scientifiques, c'est l'observation des formes géométriques des cristaux naturels, et leur capacité à se cliver selon des plans lisses respectant ces symétries. Reprenant l'idée de classification des êtres vivants de Carl von Linné, on commence à rechercher et classer les minéraux (Jean-Baptiste Romé de L'Isle, minéralogiste français, 1772). L'abbé René-Just Haüy (cristallographe français), en 1781, suppose que la forme des cristaux reflète la symétrie d'une « brique élémentaire », le cristal étant un assemblage de ces briques. On retrouve ici cette notion de composant élémentaire de la matière.
+
+XIXe siècle — le triomphe de l'atome [modifier]
+
+À ce stade, ressortaient trois notions :
+
+    * les corps chimiques sont décomposables en substances élémentaires ;
+    * les gaz sont composés de corpuscules qui volent et s'entrechoquent ;
+    * les cristaux sont composés de cellules dont la forme détermine la forme extérieure du cristal.
+
+Ces notions ont en commun le fait que la matière homogène est composée de corpuscules tous semblables entre eux, mais trop petits pour être visibles. Les découvertes du XIXe siècle vont permettre de faire converger ces trois notions, et d'établir les notions de molécule et d'atome.
+
+John Dalton (chimiste et physicien britannique), en 1804, mesure les masses des réactifs et des produits de réaction, et en déduit que les substances sont composées d'atomes sphériques, identiques pour un élément, mais différents d'un élément à l'autre, notamment par la masse de ces atomes. Il découvre également la notion de pression partielle (dans un mélange de gaz, la contribution d'un gaz donné à la pression totale). Il fut le premier à émettre les idées de la théorie atomique.
+
+En 1807, Louis Joseph Gay-Lussac (physicien et chimiste français), établit la loi reliant la température et la pression d'un gaz. En 1808, il établit que les gaz réagissent en proportions déterminées ; les rapports des volumes des réactifs et des produits de réaction sont des nombres entiers petits. Le fait que ce soit des nombres entiers, a induit fortement à penser que la matière n'est pas « continue » (pensée dominante à cette époque), mais faite d'éléments discontinus.
+
+Amedeo Avogadro (physicien italien), en 1811, énonce, sans preuve, que pour une température et une pression fixées, un volume donné de gaz contient toujours le même nombre de molécules, et ce quel que soit le gaz. Il fait également l'hypothèse que les gaz sont polyatomiques, et définit nettement molécules et atomes. André-Marie Ampère (1814), Jean-Baptiste Dumas (1827) et William Prout (1834) arrivent à la même conclusion.
+
+En 1821, John Herapath (mathématicien britannique) publie une théorie cinétique des gaz pour expliquer la propagation des sons, les changements de phase (vaporisation, liquéfaction) et la diffusion des gaz. Robert Brown (botaniste britannique), en 1827, observe le mouvement de grains de pollen dans l'eau ; les grains vont en ligne droite, et ne changent de direction que lors d'un choc avec un autre grain ou bien contre une paroi. C'est de ce comportement, le « mouvement brownien », que s'inspireront les physiciens pour décrire le mouvement des molécules de gaz.
+
+Gabriel Delafosse, en 1840, suppose que l'on peut dissocier la composante élémentaire du cristal et son organisation ; ainsi, la brique élémentaire de Haüy pourrait être un réseau aux nœuds duquel se trouveraient des « molécules » ; ce serait la forme du réseau qui donnerait la forme au cristal et non pas nécessairement la forme des molécules. Louis Pasteur (chimiste et biologiste français), en 1847, établit le lien entre la forme des molécules et la forme des cristaux (en fait, la molécule donne sa forme au réseau, et le réseau sa forme au cristal). Auguste Bravais (physicien français), en 1849, détermine les 32 réseaux cristallins possibles. En 1858, Rudolf Clausius (physicien allemand) définit le libre parcours moyen d'une molécule dans un gaz (distance moyenne parcourue entre deux chocs). Partant de là, en 1859, James Clerk Maxwell (physicien écossais) introduit la notion de dispersion statistique des vitesses des molécules dans la cinétique des gaz. Ceci permit à Ludwig Boltzmann (physicien autrichien), en 1858, d'estimer la taille des molécules et de définir la répartition statistique des vitesses dans un gaz.
+
+Dimitri Ivanovitch Mendeleïev (chimiste russe), en 1869, classe les atomes par masse croissante, et remarque qu'il y a une périodicité dans leurs propriétés chimiques. Il établit donc un tableau classant les éléments ; les trous dans ce tableau permirent de découvrir de nouveaux éléments.
+
+Bilan [modifier]
+
+La notion d'atome et de molécule a donc permis le succès de la thermodynamique statistique, de la chimie et de la cristallographie. À cette notion, vont correspondre des modèles qui seront affinés au cours du développement de la physique et particulièrement précisés par les découvertes de la physique quantique durant le XXe siècle, et notamment :
+
+    * la découverte de l'électron (Joseph John Thomson, 1897) ;
+    * les expériences de déviation des particules alpha par la matière (Ernest Rutherford of Nelson, 1911) ;
+    * les expériences de diffraction des rayons X sur les cristaux (Max von Laue, 1912).
+
+Historique des modèles de l'atome [modifier]
+
+Dans l'histoire des sciences, plusieurs modèles de l'atome ont été développés, au fur et à mesure des découvertes des propriétés de la matière. Aujourd'hui encore, on utilise plusieurs modèles différents ; en effet, le modèle le plus récent est assez complexe, l'utilisation de modèles « anciens » ou partiellement faux, mais plus simples, facilite la compréhension, donc l'apprentissage et la réflexion.
+
+Depuis l'antiquité grecque, on supposait que la matière pouvait se fractionner en petits morceaux jusqu'à obtenir des grains insécables, qu'elle était comme « de la poussière dans la lumière ». C'est avec l'expérience de Rutherford que l'on atteint enfin ce grain : les particules alpha, en traversant la matière, voient leur trajectoire perturbée, ce qui va permettre enfin de savoir comment est organisée cette « poussière »...
+
+    * 1675 : Jean Picard observe une luminescence verte en agitant un tube de baromètre ; on découvrira quelques siècles plus tard que cela est dû à l'électricité statique et aux vapeurs de mercure ;
+    * 1854 : Geissler et Plücker découvrent les rayons cathodiques, des rayons verts luminescents lorsque l'on établit une forte tension électrique dans une ampoule dont on a pompé l'air (faible pression de gaz) ; ils inventent ainsi la lampe à décharge, qui éclaire maintenant nos supermarchés d'une lumière blanche, nos rues et nos stationnements d'une lumière orange (lampes au sodium) ;
+    * 1897 : J. J. Thomson établit que ces rayons cathodiques sont constitués de particules chargées négativement arrachées à la matière, et découvre ainsi l'électron ; c'est la première décomposition de l'atome ;
+    * 1900 : Max Planck montre la quantification des échanges d'énergie dans la matière (recherches sur le corps noir) ;
+    * 1911 : expérience de Rutherford : il bombarde une feuille d'or par des particules alpha (des noyaux d'hélium, chargés positivement, obtenus par radioactivité) ; il en déduit que :
+          o la plupart des particules vont en lignes droites, donc la matière est « pleine de trous » ;
+          o mais certaines sont déviées et même rebroussent chemin, donc elles rencontrent des îlots très concentrés de matière chargée positivement (les + se repoussent entre-eux).
+
+    Il en déduit le modèle atomique planétaire : l'atome est constitué d'un noyau positif très petit et d'électrons tournant autour ; ce modèle pose un gros problème : en tournant, les électrons devraient perdre de l'énergie par rayonnement, et donc s'écraser sur le noyau… (ex.: Capture K)
+
+    * 1913 : Niels Bohr réunit les concepts de Planck et de Rutherford, et propose un modèle atomique quantique: les orbites des électrons ont des rayons définis, il n'existe que quelques orbites « autorisées » ; ainsi, les échanges d'énergie quantifiés correspondent à des sauts entre les orbites définies, et lorsque l'électron est sur l'orbite la plus basse, il ne peut pas descendre en dessous et s'écraser (mais ce modèle n'explique pas pourquoi) ;
+    * 1914 : l'expérience de Franck et Hertz valide le modèle de Bohr : ils bombardent de la vapeur de mercure avec des électrons ; l'énergie cinétique perdue par les électrons traversant les vapeurs est toujours la même ;
+    * 1924 : Louis de Broglie postule la dualité onde-corpuscule ;
+    * 1926 : Schrödinger modélise l'électron comme une onde, l'électron dans l'atome n'est donc plus une boule mais un « nuage » qui entoure le noyau ; ce modèle, contrairement aux autres, est stable car l'électron ne perd pas d'énergie.
+
+Modèles obsolètes [modifier]
+
+Les modèles présentés dans cette section sont trop éloignés de la réalité pour pouvoir être utilisés. Ils ne sont présentés ici qu'à titre historique.
+
+Le modèle de J.J. Thomson ou modèle du far aux pruneaux (plum-pudding) [modifier]
+Icône de détail Article détaillé : Modèle de Thomson.
+Le pudding de Thomson, la charge positive est répartie dans un tout petit volume qui est parsemée d'électrons
+
+Avec la découverte de l'électron en 1897, on savait que la matière était composée de deux parties : une négative, les électrons, et une positive, le noyau. Dans le modèle imaginé alors par Joseph John Thomson, les électrons, particules localisées, baignaient dans une « soupe » positive, à l'image des pruneaux dans le far breton (ou dans le plum-pudding pour les Britanniques ou encore comme des raisins dans un gateau). Ce modèle fut invalidé en 1911 par l'expérience d'un de ses anciens étudiants, Ernest Rutherford.
+
+Le modèle planétaire de Rutherford [modifier]
+
+L'expérience de Rutherford met en évidence que les charges positives ne sont pas « étalées » entre les électrons, mais sont concentrées en de petits points. Il bombarda une fine feuille d'or par un faisceau de particules alpha (particules de charges électriques positives). Il observa que les particules étaient déviées faiblement, ce qui ne correspondait pas au résultat prévu par le modèle de Thomson, pour lequel, elles n'auraient pas dû la traverser.
+
+Rutherford imagine donc un modèle planétaire : l'atome est constitué d'un noyau positif autour duquel tournent des électrons négatifs. Entre le noyau - très petit par rapport à l'atome (environ 100 000 fois) - et ses électrons, un très grand vide existe.
+
+Ce modèle fut très vite mis en défaut par les équations de Maxwell d'une part, qui prédisent que toute charge accélérée rayonne de l'énergie, et par les expériences montrant la quantification des niveaux d'énergie d'autre part.
+
+Modèles approchés couramment employés [modifier]
+
+Le modèle des sphères dures [modifier]
+
+Le modèle le plus simple pour représenter un atome est une boule indéformable. Ce modèle est très utilisé en cristallographie. Une molécule peut se voir comme plusieurs boules accolées, un cristal comme des boules empilées. On utilise parfois une représentation « éclatée » : les atomes sont représentés comme des petites boules espacées, reliées par des traits, permettant de faire ressortir les directions privilégiées, les angles et de visualiser le nombre des liaisons.
+modèle des sphères dures pour représenter l'atome ; représentation d'une molécule d'eau et d'un cristal cubique à faces centrées, compacte (gauche) et éclatée (à droite)
+
+Ce modèle correspond bien à certaines propriétés de la matière, comme, par exemple, la difficulté de comprimer les liquides et les solides, ou bien le fait que les cristaux ont des faces bien lisses. En revanche, il ne permet pas d'expliquer d'autres propriétés, comme la forme des molécules : si les atomes n'ont pas de direction privilégiée, comment expliquer que les liaisons chimiques révèlent des angles bien définis ?
+
+Le modèle de Bohr [modifier]
+Modèle de l'atome de Bohr : un modèle planétaire dans lequel les électrons ont des orbites définies
+Icône de détail Article détaillé : modèle de Bohr.
+
+Un modèle fut développé par Niels Bohr en 1913 à partir des propriétés mises en évidence par Planck et Rutherford. Dans le modèle des sphères dures, l'atome est un objet entier, indécomposable. Or, on sait depuis le milieu du XIXe siècle que l'on peut en « arracher » des particules portant une charge électrique négative, les électrons. Dans le modèle de Bohr, l'atome est composé d'un noyau chargé positivement, et d'électrons tournant autour, les rayons des orbites des électrons ne pouvant prendre que des valeurs bien précises.
+
+Le noyau est très compact, d'un diamètre d'environ 10-15 à 10-14 m, c'est-à-dire que le noyau est cent mille à un million de fois plus petit que l'atome ; il porte une charge électrique positive. C'est aussi la partie la plus lourde de l'atome, puisque le noyau représente au moins 99,95% de la masse de l'atome. Les électrons sont ponctuels, c'est-à-dire que leur rayon est admis quasi nul (tout du moins plus petit que ce que l'on peut estimer). Ils portent une charge négative. Pour des raisons de lisibilité, le schéma ci-dessous n'est donc pas à l'échelle, en ce qui concerne les dimensions du noyau et des électrons, ni aussi pour les rayons des différentes orbites (on notera ici que le nombre d'électrons sur les orbites n'est pas prédit par le modèle).
+
+Cette vision permet de décrire les phénomènes spectroscopiques fondamentaux, c'est-à-dire le fait que les atomes absorbent ou émettent seulement certaines longueurs d'onde (ou couleur) de lumière ou de rayons X. En effet, le système {noyau+électrons} étant stable et confiné, d'énergie négative, il ne possède qu'un ensemble discret d'états (et donc de niveaux) d'énergie : c'est le passage d'un état à l'autre de l'atome qui provoque une émission discrète d'énergie, ce qui explique donc les raies spectroscopiques des atomes. Le modèle de Bohr, décomposant l'atome en deux parties, un noyau et un nuage d'électrons, est plus précis que le modèle des sphères dures, pour lequel la surface de la sphère correspond à l'orbite des électrons extérieurs.
+
+Cependant, très vite, le modèle de l'atome de Bohr ne permettra pas d'expliquer l'ensemble des observations (effet Zeeman, etc.). Il faudra attendre 1924-1926 pour qu'avec Schrödinger, les orbites deviennent orbitales avec des énergies stationnaires : la Mécanique Quantique est née.
+
+Le modèle actuel : modèle de Schrödinger [modifier]
+Icône de détail Article détaillé : Théorie de Schrödinger de l'atome d'hydrogène.
+
+La naissance de la mécanique ondulatoire de Louis de Broglie 1924, généralisée par Erwin Schrödinger en 1926 amène à proposer un nouveau modèle, dont les aspects relativistes furent décrits par Paul Dirac en 1928 ; il permet d'expliquer la stabilité de l'atome et la description des termes spectroscopiques.
+
+Dans ce modèle, les électrons ne sont plus des billes localisées en orbite, mais des nuages de probabilité de présence. Ce point de vue, révolutionnaire, peut choquer en première approche. Cependant la représentation que l'on pouvait se faire d'un électron — une petite bille ? — était dictée par les formes observées dans le monde macroscopique, transposées sans preuves dans le monde microscopique. Il faut bien se pénétrer du fait que ce que l'on connaît de l'électron ne repose que sur des manifestations indirectes : courant électrique, tube cathodique (télévision)…
+
+Depuis les années 1930, on modélise ainsi l'électron par une « fonction d'onde » dont le carré de la « norme représente la densité de probabilité de présence ». Pour représenter fidèlement les propriétés de l'électron, on ne dispose que des fonctions mathématiques compliquées. Cette abstraction rebute encore bien des physiciens. Nous allons essayer de donner une image de cette notion de fonction d'onde, image nécessairement imparfaite.
+
+    Imaginons que hors de l'atome, l'électron soit une petite bille. Lorsque l'électron est capturé par l'atome, il se « dissout » et devient un nuage diffus, il s'« évapore ». Quand on l'arrache de l'atome, il redevient une petite bille, il se « recondense ». Il existe d'autres exemples d'objet qui changent de forme, par exemple, hors de l'eau, le sel est sous forme de cristaux ; mis dans l'eau, il se dissout, et si l'on fait s'évaporer l'eau, on retrouve des cristaux. Le sel change de forme (cristal compact ou dissous dans l'eau), mais on a tout le temps du sel.
+
+Image simplifiée de l'arrachement d'un électron du nuage électronique dans le modèle de Schrödinger
+
+De manière un peu plus exacte : un électron, hors d'un atome, est représenté par un paquet d'ondes, qui peut être considéré, dans certaines limites, comme une petite bille. La mécanique quantique démontre qu'un tel paquet d'ondes s'étale au cours du temps ; au contraire, un électron d'un atome conserve la structure de la fonction d'onde associée à l'orbite qu'il occupe (tant qu'il n'est pas éjecté de l'atome). La mécanique quantique postule donc, non la conservation de la forme (non connue) de l'électron, mais l'intégrale de la probabilité de présence.
+
+Dans le modèle de Schrödinger, les nuages correspondant aux différents électrons s'interpénètrent ; il n'est pas question de se donner une représentation individuelle des électrons chacun sur son orbite, comme cela était dans le cas du modèle de Bohr. Cela est d'autant plus vrai que les électrons sont des particules identiques indiscernables. Les effets d'échange amènent à considérer que chaque électron de l'atome est à la fois sur chaque orbitale occupée (correspondant à une configuration électronique donnée). L'ionisation de l'atome (l'arrachement d'un électron de l'atome) peut alors être représentée par le schéma simplifié ci-dessous.
+
+Pour éviter des complications inutiles, on considérera l'atome le plus simple afin de montrer quelques schémas dévoilant les points fondamentaux du modèle :
+
+    * le nuage électronique associé à l'état fondamental, révélant (comme d'autres états) la possibilité pour l'électron d'être au sein du noyau, ce qui a des conséquences en physique nucléaire : capture électronique.
+
+    * le nuage électronique associé à une combinaison linéaire de deux orbitales associées au premier niveau excité. Cet exemple montre la possibilité d'obtenir des nuages électroniques pointant vers l'extérieur de l'atome… nous sommes ainsi préparés aux liaisons moléculaires.
+
+Soit ρ(r,θ,φ) la densité de probabilité de présence au point de coordonnées sphériques (r,θ,φ). Pour l'état fondamental, la densité de probabilité, ρ, est maximale au centre de l'atome. Considérons maintenant la densité radiale de probabilité de présence (à la distance r du noyau, toutes les directions confondues) :
+
+    P(r) = 4\pi r^2 \cdot \rho(r,0,0),
+
+cette densité radiale est maximale pour r = r1 de la première orbite du modèle de Bohr (dans l'expression ci-dessus, on a tenu compte de la symétrie sphérique de ρ, identique pour toutes les directions). on a en fait :
+
+    ρ(0,0,0) > ρ(r1,0,0), mais P(0) < P(r1).
+
+Densité de probabilité de présence de l'électron, état fondamental de l'hydrogène — la densité, dans un plan xy, section droite passant par le centre de l'atome, est indiquée par des niveaux de gris (elle est maximale au centre). La courbe en superposition (axe 0r) donne la densité de probabilité radiale en fonction de la distance r, c'est-à-dire la probabilité d'être en r toutes directions confondues : elle est maximale pour le premier rayon de Bohr (0,0529 nm).
+
+En fonction de l'état quantique de l'électron (fondamental, excité …) ces nuages peuvent prendre différentes formes, qui sont décrites en particulier par les harmoniques sphériques. La forme la plus simple est la symétrie sphérique, montrée en particulier, ci-dessus, dans le cas de l'état fondamental, |1s>.
+
+Des combinaisons linéaires de fonctions d'onde, utilisant des harmoniques sphériques distinctes, permettent l'apparition d'une anisotropie qui va devenir essentielle pour le passage de la notion d'atome à celle de molécule. Le schéma ci-contre montre une coupe de la densité de probabilité de présence de l'orbitale hybride |2spz > de l'atome d'hydrogène, coupe contenant Oz axe de symétrie de l'orbitale atomique. Pour cet exemple, l'axe Oz devient une direction privilégiée, mais de plus la densité de probabilité de présence s'étale plus loin pour une orientation donnée.
+
+Ce modèle permet d'expliquer :
+
+    * la stabilité de l'atome, les charges sont accélérées, mais elles sont contraintes par la mécanique quantique (relations d'incertitude) ;
+    * la forme des molécules : orientation préférentielle des nuages électroniques ;
+    * l'organisation des cristaux : le nuage électronique se comporte comme une coquille dure ;
+    * les effets spectroscopiques (la quantification des échanges d'énergie) : le nuage ne peut prendre que des formes déterminées, notamment en ce qui concerne la distance r1 du maximum de densité au noyau.
+
+On notera pour terminer que des corrections relativistes sont à apporter, dans le cas des atomes de numéro atomique élevé, pour la détermination des niveaux internes (les vitesses des électrons sur les orbites du modèle de Bohr sont alors importantes).
+
+Le noyau atomique [modifier]
+Icône de détail Article détaillé : Noyau atomique.
+
+Si la mécanique quantique permit d'expliquer rapidement les caractéristiques spectroscopiques des atomes et des molécules, le cœur de l'atome, son noyau, fut plus difficile à comprendre. Les difficultés sont ici de deux ordres : l'une correspondant à l'importance de l'énergie des particules sondes permettant d'atteindre les dimensions de l'ordre du fermi, l'autre à la nécessaire invention d'au moins une interaction supplémentaire permettant la stabilité d'un noyau constitué de protons (qui se repoussent électriquement) et de neutrons.
+
+Cette compréhension de la cohésion du noyau devait aussi expliquer les phénomènes de radioactivité alpha, bêta et gamma, dont les premières observations dataient de la dernière décennie du XIXe siècle.
+
+La décennie qui précéda la Seconde Guerre mondiale mena à la découverte des deux interactions maîtresses de la stabilité du cœur : l'interaction forte et l'interaction faible. La petitesse de la portée de ces deux interactions, respectivement 10-15 m et 10-18 m explique les difficultés expérimentales rencontrées. Les difficultés théoriques ne manquent pas, non plus ; il ne s'agit pas de lois physiques aussi simples que celles de l'électromagnétisme, même compliquées par la mécanique quantique, mais de la compréhension de toutes les particules élémentaires… L'invention des quarks et des gluons donne ainsi la vision actuelle de l'interaction qui maintient ensemble les nucléons.
+
+Cette physique nucléaire mène aussi à l'explication de la nucléosynthèse, expliquant les aspects nucléaires tableau de Mendeleïev. On se retrouve là dans le foisonnement de la naissance de l'univers et de la dynamique des étoiles.
+
+Notation [modifier]
+
+Un atome est couramment désigné par son symbole chimique, complété par son nombre de masse A (égal au nombre de nucléons de l'atome) placé en haut et à gauche du symbole.
+
+Exemple: le carbone 12 de nombre de masse 12 est noté {}^{12}\mathrm C\,.
+
+Il est d'usage de compléter cette écriture par le numéro atomique Z , placé en bas et à gauche du symbole, pour décrire une réaction nucléaire dans laquelle intervient un isotope.
+
+Le carbone 12 est ainsi noté {}^{12}_{\ 6}\mathrm C\,.
+
+Ainsi, le carbone 14 {}^{14}_{\ 6}\mathrm C\, et le carbone 12 {}^{12}_{\ 6}\mathrm C\, sont deux isotopes.
+
+Notes [modifier]
+
+   1. ↑ (fr) Définitions lexicographiques [archive] et étymologiques [archive] de atome du CNRTL.
+   2. ↑ Cette notion avait déjà été énoncée dans l'Antiquité, par Anaxagore de Clazomène, et elle fut acceptée par un grand nombre de philosophes (épicuriens, stoïciens, etc.) ; ce principe se fondait sur les observations possibles pour l'époque et fut élaborée selon une démarche scientifique.
+
+Voir aussi [modifier]
+
+	
+
+Voir « atome » sur le Wiktionnaire.
+
+Articles connexes [modifier]
+
+    * Nucléosynthèse
+    * Réaction chimique
+    * Réaction nucléaire
+    * Règle de l'octet
+    * Règle du duet
+    * Orbitale atomique
+    * Atome d'hydrogène
+    * Raie à 21 centimètres
+
+Bibliographie [modifier]

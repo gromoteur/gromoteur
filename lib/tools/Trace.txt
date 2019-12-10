@@ -1,0 +1,3 @@
+Parametres lus sur le fichier TabLexIn
+ni=5011 nj=36 T=48398 nopt=1 seuil=5
+--- Traitement terminé ----

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-6.1.dtd">
+<!-- eric project file for project gro2019 -->
+<!-- Saved: 2019-07-02, 01:11:40 -->
+<!-- Copyright (C) 2019 ,  -->
+<Project version="6.1">
+  <Language>en_US</Language>
+  <Hash>edead2caf85e0afc5f60f74c070dc6011df1ab31</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>2.0</Version>
+  <Author></Author>
+  <Email></Email>
+  <TranslationPattern>lib/translations/trans.zh.ts</TranslationPattern>
+  <Sources>
+    <Source>gromoteur.py</Source>
+    <Source>lib/Ui_NexicoMain.py</Source>
+    <Source>lib/Ui_exporter.py</Source>
+    <Source>lib/Ui_fieldselector.py</Source>
+    <Source>lib/Ui_goDialog.py</Source>
+    <Source>lib/Ui_groTools.py</Source>
+    <Source>lib/Ui_groWindow.py</Source>
+    <Source>lib/Ui_helpDialog.py</Source>
+    <Source>lib/Ui_importer.py</Source>
+    <Source>lib/Ui_languageDetector.py</Source>
+    <Source>lib/Ui_loginWebDialog.py</Source>
+    <Source>lib/Ui_preferencesDialog.py</Source>
+    <Source>lib/Ui_spiderConfigWizard.py</Source>
+    <Source>lib/__init__.py</Source>
+    <Source>lib/bing.py</Source>
+    <Source>lib/browsercookie.py</Source>
+    <Source>lib/exporter.py</Source>
+    <Source>lib/fieldselector.py</Source>
+    <Source>lib/goDialog.py</Source>
+    <Source>lib/groBase.py</Source>
+    <Source>lib/groNexico.py</Source>
+    <Source>lib/groSpider.py</Source>
+    <Source>lib/groTools.py</Source>
+    <Source>lib/groWindow.py</Source>
+    <Source>lib/groressources_rc.py</Source>
+    <Source>lib/helpDialog.py</Source>
+    <Source>lib/htmlPage.py</Source>
+    <Source>lib/importer.py</Source>
+    <Source>lib/languageDetector.py</Source>
+    <Source>lib/nexicoBase.py</Source>
+    <Source>lib/nexicoMain.py</Source>
+    <Source>lib/nexicollocations.py</Source>
+    <Source>lib/ngram.py</Source>
+    <Source>lib/preferencesDialog.py</Source>
+    <Source>lib/py_ms_cognitive_search.py</Source>
+    <Source>lib/socks.py</Source>
+    <Source>lib/spiderConfigWizard.py</Source>
+    <Source>lib/spiderConfiguration.py</Source>
+    <Source>lib/spiderThread.py</Source>
+    <Source>lib/split.py</Source>
+    <Source>lib/urls.py</Source>
+    <Source>lib/utils.py</Source>
+    <Source>module.py</Source>
+  </Sources>
+  <Forms>
+    <Form>lib/NexicoMain.ui</Form>
+    <Form>lib/exporter.ui</Form>
+    <Form>lib/fieldselector.ui</Form>
+    <Form>lib/goDialog.ui</Form>
+    <Form>lib/groTools.ui</Form>
+    <Form>lib/groWindow.ui</Form>
+    <Form>lib/helpDialog.ui</Form>
+    <Form>lib/importer.ui</Form>
+    <Form>lib/languageDetector.ui</Form>
+    <Form>lib/loginWebDialog.ui</Form>
+    <Form>lib/preferencesDialog.ui</Form>
+    <Form>lib/spiderConfigWizard.ui</Form>
+  </Forms>
+  <Resources>
+    <Resource>lib/groressources.qrc</Resource>
+  </Resources>
+  <MainScript>gromoteur.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+  </FiletypeAssociations>
+  <Make>
+    <MakeParameters>
+      <dict>
+        <key>
+          <string>MakeEnabled</string>
+        </key>
+        <value>
+          <bool>True</bool>
+        </value>
+        <key>
+          <string>MakeExecutable</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeFile</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeParameters</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeTarget</string>
+        </key>
+        <value>
+          <string></string>
+        </value>
+        <key>
+          <string>MakeTestOnly</string>
+        </key>
+        <value>
+          <bool>True</bool>
+        </value>
+      </dict>
+    </MakeParameters>
+  </Make>
+</Project>
