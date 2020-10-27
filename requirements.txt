@@ -8,7 +8,7 @@ cffi==1.13.2
 charade==1.0.3
 chardet==3.0.4
 configobj==5.0.6
-cryptography==2.8
+cryptography==3.2
 docutils==0.15.2
 gensim==3.8.1
 idna==2.8
