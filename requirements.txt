@@ -34,5 +34,5 @@ SecretStorage==3.1.1
 six==1.13.0
 smart-open==1.9.0
 soupsieve==1.9.5
-urllib3==1.25.7
+urllib3==1.25.8
 zipp==0.6.0
